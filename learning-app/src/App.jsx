@@ -12,6 +12,7 @@ const router = createBrowserRouter(
       element: 
       <div>
           <Navbar/>
+          <Home/>
       </div>     
     },
 
