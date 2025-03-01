@@ -4,9 +4,14 @@ import './Navbar.jsx'
 import { Link } from 'react-router-dom'
 const Home = () => {
   return (
-    <div>
-      
-    </div>
+    <section className="hero">
+        <div className="main">
+
+        </div>
+        <div className="basic">
+
+      </div>
+    </section>
   )
 }
 

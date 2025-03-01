@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 import './Home.jsx'
 const Navbar = () => {
   return (
-    <body>
+    <div className="navi">
         <div className="nav">
             <div className="logo">
-                <Link to="/">
+                <Link to="/home">
                     <img src="./logo1.png" alt="logo" className='img'/>
                 </Link>
             </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link to="#" id='d1'>FACE</Link>
             <Link to="#" id='d1'>BODY</Link>
         </div>      
-    </body>
+    </div>
   )
 }
 
