@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     max-width: 1800px;
+    overflow: hidden;
 }
 .head{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -18,7 +19,7 @@
 }
 .main{
     height: 550px;
-    width: 100%;
+    /* width: 100%; */
     background-color: rgb(164, 168, 233);
 }
 .basic{
