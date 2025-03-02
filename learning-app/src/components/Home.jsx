@@ -49,7 +49,7 @@ const Home = () => {
               <Link className="w4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
-                <img src="./logo.png" alt="" />
+                <img src="./Words.png" alt="" className="himage"/>
             </div>
           </div>
         </div>
