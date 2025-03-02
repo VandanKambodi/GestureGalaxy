@@ -6,7 +6,7 @@ import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import Signup from './components/signup.jsx';
 import Login from './components/login.jsx';
-
+import About from './components/about.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -41,7 +41,16 @@ const router = createBrowserRouter(
       <div>
           <Login/>
       </div>
-    }
+    },
+
+    {
+      path:"/about",
+      element:
+      <div>
+          <Navbar/>
+          <About/>
+      </div>
+    },
   ]
 );
 

@@ -19,7 +19,7 @@ const Navbar = () => {
                 <button className='butt'>Search</button>
             </div>
             <div className="about">
-                <Link to="/about" id='l1'>About</Link>
+                <Link to="/about" id='l1'>About Us</Link>
             </div>
             <div className="prime">
                 <Link to="/premium" id='l1'>Premium</Link>
