@@ -23,95 +23,129 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="basic">
+        <div className="food">
           <div className="part">
             <div className="left">
-              <h1 className="head">BASIC</h1>
+              <h1 className="head">FOOD</h1>
               <p className="para">Some basics for building language</p>
-              <Link className="b1" to="/basic">Learn Basic</Link>
-              <Link className="b2" to="/basic">Video Tutorial</Link>
-              <Link className="b3" to="/basic">Reference</Link>
-              <Link className="b4" to="/certificate">Give Quiz</Link>
+              <Link className="f1" to="/food">Learn </Link>
+              <Link className="f2" to="/food">Video Tutorial</Link>
+              <Link className="f3" to="/food">Reference</Link>
+              <Link className="f4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
                 <img src="./logo.png" alt="" />
             </div>
           </div>
         </div>
-        <div className="basic">
+        <div className="words">
           <div className="part">
             <div className="left">
-              <h1 className="head">BASIC</h1>
+              <h1 className="head">WORDS</h1>
               <p className="para">Some basics for building language</p>
-              <Link className="b1" to="/basic">Learn Basic</Link>
-              <Link className="b2" to="/basic">Video Tutorial</Link>
-              <Link className="b3" to="/basic">Reference</Link>
-              <Link className="b4" to="/certificate">Give Quiz</Link>
+              <Link className="w1" to="/words">Learn Basic</Link>
+              <Link className="w2" to="/words">Video Tutorial</Link>
+              <Link className="w3" to="/words">Reference</Link>
+              <Link className="w4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
                 <img src="./logo.png" alt="" />
             </div>
           </div>
         </div>
-        <div className="basic">
+        <div className="emotions">
           <div className="part">
             <div className="left">
-              <h1 className="head">BASIC</h1>
+              <h1 className="head">EMOTIONS</h1>
               <p className="para">Some basics for building language</p>
-              <Link className="b1" to="/basic">Learn Basic</Link>
-              <Link className="b2" to="/basic">Video Tutorial</Link>
-              <Link className="b3" to="/basic">Reference</Link>
-              <Link className="b4" to="/certificate">Give Quiz</Link>
+              <Link className="e1" to="/emotions">Learn Basic</Link>
+              <Link className="e2" to="/emotions">Video Tutorial</Link>
+              <Link className="e3" to="/emotions">Reference</Link>
+              <Link className="e4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
                 <img src="./logo.png" alt="" />
             </div>
           </div>
         </div>
-        <div className="basic">
+        <div className="hand">
           <div className="part">
             <div className="left">
-              <h1 className="head">BASIC</h1>
+              <h1 className="head">HAND</h1>
               <p className="para">Some basics for building language</p>
-              <Link className="b1" to="/basic">Learn Basic</Link>
-              <Link className="b2" to="/basic">Video Tutorial</Link>
-              <Link className="b3" to="/basic">Reference</Link>
-              <Link className="b4" to="/certificate">Give Quiz</Link>
+              <Link className="h1" to="/hand">Learn Basic</Link>
+              <Link className="h2" to="/hand">Video Tutorial</Link>
+              <Link className="h3" to="/hand">Reference</Link>
+              <Link className="h4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
                 <img src="./logo.png" alt="" />
             </div>
           </div>
         </div>
-        <div className="basic">
+        <div className="face">
           <div className="part">
             <div className="left">
-              <h1 className="head">BASIC</h1>
+              <h1 className="head">FACE</h1>
               <p className="para">Some basics for building language</p>
-              <Link className="b1" to="/basic">Learn Basic</Link>
-              <Link className="b2" to="/basic">Video Tutorial</Link>
-              <Link className="b3" to="/basic">Reference</Link>
-              <Link className="b4" to="/certificate">Give Quiz</Link>
+              <Link className="fa1" to="/face">Learn Basic</Link>
+              <Link className="fa2" to="/face">Video Tutorial</Link>
+              <Link className="fa3" to="/face">Reference</Link>
+              <Link className="fa4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
                 <img src="./logo.png" alt="" />
             </div>
           </div>
         </div>
-        <div className="basic">
+        <div className="body">
           <div className="part">
             <div className="left">
-              <h1 className="head">BASIC</h1>
+              <h1 className="head">BODY</h1>
               <p className="para">Some basics for building language</p>
-              <Link className="b1" to="/basic">Learn Basic</Link>
-              <Link className="b2" to="/basic">Video Tutorial</Link>
-              <Link className="b3" to="/basic">Reference</Link>
-              <Link className="b4" to="/certificate">Give Quiz</Link>
+              <Link className="bo1" to="/body">Learn Basic</Link>
+              <Link className="bo2" to="/body">Video Tutorial</Link>
+              <Link className="bo3" to="/body">Reference</Link>
+              <Link className="bo4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
                 <img src="./logo.png" alt="" />
             </div>
           </div>
+        </div>
+        <div className="quiz">
+          <div className="q1">
+          <div className="up">
+              <h1 className="qhead">Quizzes</h1>
+              <p className="qpara">Test your skills!</p>
+            </div>
+            <div className="down">
+                <div className="ex">
+                  <Link to="/certification" className="qp">Quizzes</Link>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div className="hprime">
+            <div className="pcontent">
+            <div className="phead">
+              <h1 className="phead">Become a Plus User</h1>
+            </div>
+            <div className="ppara">
+            <p className="ppara">Get access to premium content</p>
+            </div>
+            <div className="plist">
+              
+                <li>~ Ad-free learning</li>
+                <li>~ Unlimited access to all courses</li>
+                <li>~ Downloadable resources</li>
+                <li>~ Offline viewing</li>
+              
+            </div>
+            <div className="pprime">
+              <Link to="/premium" className="pprime">Get Premium</Link>
+            </div>
+            </div>
         </div>
     </section>
   )
