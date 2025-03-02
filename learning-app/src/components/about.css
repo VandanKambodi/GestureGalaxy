@@ -174,4 +174,13 @@
     height: 350px;
     width: 400px;
   }
+
+  .wwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background: rgb(52, 50, 66);
+  }
     
