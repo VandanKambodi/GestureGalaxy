@@ -62,20 +62,43 @@ const about = () => {
       </div>
 
       <div className="wwo">
-        <div className="vision-part">
-          <div className="vision-image">
+        <div className="wwo-part">
+          <div className="wwo-image">
             <img src="./astro1.png" alt="wwo" className='about-im' />
           </div>
-          <div className="vision-text">
+          <div className="wwo-text">
             <h2>WHAT WE OFFER ?</h2>
-            <p>
-            💡 Comprehensive Sign Language <br />
-            📚 Interactive Learning Materials <br />
-            🎥 Video Tutorials & Demos <br />
-            🤝 Community & Support <br />
-            🖥️ Smooth Navigation Flow 
+            <p class="wwo-text">
+              💡 Comprehensive Sign Language <br />
+              📚 Interactive Learning Materials <br />
+              🎥 Video Tutorials & Demos <br />
+              🤝 Community & Support <br />
+              🖥️ Smooth Navigation Flow
             </p>
           </div>
+        </div>
+      </div>
+
+      <div class="stats-section">
+        <div class="stat">
+          <img src="./users.png" alt="Users" />
+          <h2>10,000+</h2>
+          <p>Users Learning Sign Language</p>
+        </div>
+        <div class="stat">
+          <img src="./mappin.png" alt="Countries" />
+          <h2>23+</h2>
+          <p>Cities Reached</p>
+        </div>
+        <div class="stat">
+          <img src="./bookmark.png" alt="Resources" />
+          <h2>564+</h2>
+          <p>Educational Resources Available</p>
+        </div>
+        <div class="stat">
+          <img src="./cusers.png" alt="Learners" />
+          <h2>3,700+</h2>
+          <p>Successful Learners Communicating Confidently</p>
         </div>
       </div>
     </div>
