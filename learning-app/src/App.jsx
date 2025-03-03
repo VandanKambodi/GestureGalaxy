@@ -8,6 +8,7 @@ import Signup from './components/signup.jsx';
 import Login from './components/login.jsx';
 import About from './components/about.jsx';
 import NotFound from './components/NotFound.jsx';
+import Footer from './components/Footer.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -24,6 +25,7 @@ const router = createBrowserRouter(
       <div>
           <Navbar/>
           <Home/>
+          <Footer/>
       </div>     
     },
 
@@ -33,6 +35,7 @@ const router = createBrowserRouter(
       <div>
           <Navbar/>
           <Home/>
+          <Footer/>
       </div>     
     },
 
@@ -58,6 +61,7 @@ const router = createBrowserRouter(
       <div>
           <Navbar/>
           <About/>
+          <Footer/>
       </div>
     },
   ]

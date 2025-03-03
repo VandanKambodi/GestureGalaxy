@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#roocket {
+    right: 3%;
+    top: 85%;
+    width: 6%;
+    height: 20%;
+    position: fixed;
+}
+
+.footer-container {
+    background-color: #222;
+    color: #f9f9f5;
+    padding: 120px 0px;
+    padding-bottom: 28px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: auto;
+}
+
+#panel {
+    color: #dd88cf;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    border-bottom: 2px solid #dd88cf;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    color: #eceae5;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.footer-section ul li a:hover {
+    color: #e2aed9;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 1800px;
+    font-size: 14px;
+    background-color: #dd88cf;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer-bottom h2 {
+    color: rgb(35, 30, 30);
+}
+
+.scrollTotop {
+    animation-name: appear;
+    animation-timeline: scroll(y);
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        position: fixed;
+    }
+
+    3% {
+        opacity: 0;
+        display: none;
+        position: fixed;
+    }
+
+    3.5% {
+        opacity: 1;
+        display: block;
+        position: fixed;
+    }
+
+    100% {
+        opacity: 1;
+        display: block;
+        position: fixed;
+    }
+}
+.space{
+    height: 40px;
+    background-color: #222;
+}
+.fpara{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
