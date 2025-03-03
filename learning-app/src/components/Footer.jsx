@@ -30,9 +30,9 @@ const Footer = () => {
             <ul>
                 <li><a href="https://www.facebook.com/"><img src="./facebook.png" alt="Facebook"  width="45" /> Facebook</a></li> 
                 <li><a href="https://www.instagram.com/"><img src="./instagram.png" alt="Instagram"  height="20" /> Instagram</a></li>  
-                 <li><a href="https://www.youtube.com/"><img src="./youtube.png" alt="YouTube"   height="20" /> YouTube</a></li>  
-              <li><a href="https://x.com/?lang=en"><img src="./twitter.png" alt="Twitter"  height="20" /> Twitter</a></li>  
-              <li><a href="https://in.linkedin.com/"><img src="./linkdin.png" alt="LinkedIn"  height="20" /> LinkedIn</a></li> 
+                <li><a href="https://www.youtube.com/"><img src="./youtube.png" alt="YouTube"   height="20" /> YouTube</a></li>  
+                <li><a href="https://x.com/?lang=en"><img src="./twitter.png" alt="Twitter"  height="20" /> Twitter</a></li>  
+                <li><a href="https://in.linkedin.com/"><img src="./linkdin.png" alt="LinkedIn"  height="20" /> LinkedIn</a></li> 
             </ul>
         </div>
         

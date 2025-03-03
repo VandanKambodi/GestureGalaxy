@@ -9,6 +9,7 @@ import Login from './components/login.jsx';
 import About from './components/about.jsx';
 import NotFound from './components/NotFound.jsx';
 import Footer from './components/Footer.jsx';
+import Premium from './components/premium.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -64,10 +65,19 @@ const router = createBrowserRouter(
           <Footer/>
       </div>
     },
+
+    {
+      path:"/premium",
+      element:
+      <div>
+          <Navbar/>
+          <Premium/>
+          <Footer/>
+      </div>
+    },
+    
   ]
 );
-
-
 
 function App() {
 
