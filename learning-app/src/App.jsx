@@ -7,8 +7,17 @@ import Home from './components/Home.jsx';
 import Signup from './components/signup.jsx';
 import Login from './components/login.jsx';
 import About from './components/about.jsx';
+import NotFound from './components/NotFound.jsx';
 const router = createBrowserRouter(
   [
+    {
+      path:"*",
+      element:
+      <div>
+          <NotFound/>
+      </div>
+    },
+
     {
       path:"/",
       element: 
