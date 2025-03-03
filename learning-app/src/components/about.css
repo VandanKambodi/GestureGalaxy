@@ -161,7 +161,7 @@
   }
   
   .core-text ol {
-    color: #776999;;
+    color: #6c5899;;
     font-size: 16px;
     line-height: 2;
   }
@@ -180,7 +180,77 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 450px;
-    background: rgb(52, 50, 66);
+    height: 500px;
+    background: rgb(52, 47, 91);
   }
+  .wwo-part{
+    max-width: 920px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  .wwo-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 350px;
+  }
+  
+  .wwo-text h2 {
+    color: rgb(231, 229, 229);
+    font-size: 35px;
+  }
+  
+  .wwo-text p {
+    font-size: 19px;
+    color: #d6c7ee;
+  }
+  
+  .wwo-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+  }
+  
+  .stats-section {
+    background-color: rgb(39, 35, 68);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    padding: 50px;
+    background-image: url('abinfo-bg.png');
+}
+.stat {
+    text-align: center;
+    width: 200px;
+}
+.stat img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.stat i {
+    font-size: 40px;
+    color: #F8B400;
+    margin-bottom: 10px;
+}
+.stat h2 {
+    font-size: 28px;
+    margin: 5px 0;
+}
+.stat p {
+    font-size: 16px;
+}
     
