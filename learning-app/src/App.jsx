@@ -10,6 +10,7 @@ import About from './components/about.jsx';
 import NotFound from './components/NotFound.jsx';
 import Footer from './components/Footer.jsx';
 import Premium from './components/premium.jsx';
+import Books from './components/books.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -72,6 +73,16 @@ const router = createBrowserRouter(
       <div>
           <Navbar/>
           <Premium/>
+          <Footer/>
+      </div>
+    },
+
+    {
+      path:"/books",
+      element:
+      <div>
+          <Navbar/>
+          <Books/>
           <Footer/>
       </div>
     },
