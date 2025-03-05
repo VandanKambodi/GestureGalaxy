@@ -10,7 +10,7 @@ const premium = () => {
           <h2>Save your <span className="highlight">money now.</span></h2>
           <p>Manage your company Bot in few easy steps, join our Pro plan to try a 360° experience of our service.</p>
           <p>Start your 14 days of free Pro plan, you can always upgrade it or stay with the Lite version for free.</p>
-          <img src="./logo1.png" alt="Gesture Galaxy Logo" className="pricing-bot-image" />
+          <a href="./home"><img src="./logo1.png" alt="Gesture Galaxy Logo" className="pricing-bot-image" /></a>
         </div>
 
         <div className="pricing-plan pricing-lite">
