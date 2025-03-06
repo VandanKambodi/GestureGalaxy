@@ -1,13 +1,13 @@
 .books-container {
     text-align: center;
     padding: 50px;
-    background-color: #f3f3f3;
+    background-color: #F8E7F6;
   }
   
   .title {
     font-size: 2.5em;
-    margin-bottom: 30px;
-    color: #4f46e5;
+    margin-bottom: 50px;
+    color: #6a0b6d;
   }
   
   .books-grid {
@@ -17,7 +17,8 @@
   }
   
   .book-card {
-    background: white;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(180deg, #FA8BFF 0%, #6a0b6d 86%);
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -37,12 +38,13 @@
     margin-bottom: 15px;
   }
   
-  h2, h3 {
+  .book-title, .book-author {
     margin: 10px 0;
+    color: white;
   }
   
   .dis {
-    color: #555;
+    color: #cfcfcf;
     margin-bottom: 20px;
   }
   
@@ -50,13 +52,15 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #4f46e5;
-    color: white;
+    background-color: #f094cb;
+    color: rgb(87, 70, 70);
+    font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
   }
   
   .buy-button:hover {
-    background-color: #3b37b0;
+    background-color: #ff0000;
+    color: white;
   }
   
