@@ -160,3 +160,39 @@ a{
     background-color: #df41c2;
     cursor: pointer;
 }
+
+@media (max-width: 640px) {
+    .data
+    {
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .data
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+  }
+  @media (max-width: 1175px) {
+    .nav{
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 0px;
+        margin-bottom: 10px;
+    }
+    .img{
+        height: 100px;
+        width: 120px;
+    }
+    .search{
+        display: none;
+    }
+}

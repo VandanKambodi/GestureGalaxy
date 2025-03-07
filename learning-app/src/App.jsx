@@ -85,8 +85,7 @@ const router = createBrowserRouter(
           <Books/>
           <Footer/>
       </div>
-    },
-    
+    },    
   ]
 );
 
