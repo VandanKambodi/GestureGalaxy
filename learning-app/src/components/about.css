@@ -253,4 +253,90 @@
 .stat p {
     font-size: 16px;
 }
-    
+
+@media (max-width: 930px) {
+  .mission-part{
+    gap: 0px;
+  }
+  .vision-part{
+    gap: 0px;
+  }
+  .core-part{
+    gap: 0px;
+  }
+  .wwo-part{
+    gap: 0px;
+  }
+}
+@media (max-width: 780px) {
+  .mission-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .mission-text h2 {
+    text-align: center;
+  }
+  .mission-text p {
+    text-align: center;
+  }
+  .mission-image{
+    display: none;
+  }
+  .vision-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .vision-text h2 {
+    text-align: center;
+  }
+  .vision-text p {
+    text-align: center;
+  }
+  .vision-image{
+    display: none;
+  }
+  .core-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .core-text h2 {
+    text-align: center;
+  }
+  .core-text ol {
+    text-align: center;
+  }
+  .core-image{
+    display: none;
+  }
+  .wwo-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .wwo-text h2 {
+    text-align: center;
+  }
+  .wwo-text p {
+    text-align: center;
+  }
+  .wwo-image{
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .stats-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .stat {
+    margin: 20px 0;
+  }
+}
