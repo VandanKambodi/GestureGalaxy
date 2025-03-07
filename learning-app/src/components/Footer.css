@@ -115,3 +115,14 @@ html {
     margin-top: 50px;
     margin-bottom: 0;
 }
+
+@media (max-width: 870px) {
+    #roocket{
+        margin-right: 15px;
+    }
+}
+@media (max-width: 600px) {
+    #roocket{
+        margin-right: 25px;
+    }
+}

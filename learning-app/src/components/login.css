@@ -1,3 +1,8 @@
+.alog{
+  background-color: #A9C9FF;
+  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+
 .log{
     margin: 0%;
     padding: 0%;
@@ -8,7 +13,7 @@
     align-items: center; 
     flex-direction: row;
     height: 100vh;  
-    margin-left: 50px;  
+    margin-left: 0px;  
 }
 .login-container {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -72,3 +77,26 @@
     text-decoration: underline;
   }
   
+  @media (max-width:1000px) {
+    .limg{
+        height: 320px;
+        width: 390px;
+
+    }
+}
+@media (max-width:900px) {
+    .limg{
+        height: 250px;
+        width: 300px;
+
+    }
+}
+
+@media (max-width:744px) {
+    .log{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

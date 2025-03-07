@@ -18,10 +18,11 @@ import { Link } from 'react-router-dom'
         };
     
         return (
+        <div className="alog">
         <div className="log">
                 <div className="slogo">
                     <Link to="/home">
-                        <img src="./logo1.png" alt="logo" className='img'/>
+                        <img src="./logo1.png" alt="logo" className='limg'/>
                     </Link>
                 </div>
         <div className="login-container">
@@ -48,6 +49,7 @@ import { Link } from 'react-router-dom'
             </form>
             <p>Don't have an account? <Link to="/signup">Sign Up</Link></p>
             </div>
+        </div>
         </div>
         </div>
         )

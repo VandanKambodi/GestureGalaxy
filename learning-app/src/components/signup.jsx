@@ -19,10 +19,11 @@ const signup = () => {
   };
 
   return (
+    <div className="all">
     <div className="sign">
         <div className="slogo">
             <Link to="/home">
-                <img src="./logo1.png" alt="logo" className='img'/>
+                <img src="./logo1.png" alt="logo" className='simg'/>
             </Link>
         </div>
     <div className="signup-container">
@@ -57,6 +58,7 @@ const signup = () => {
         </form>
         <p>Already have an account? <Link to="/login">Login</Link></p>
       </div>
+    </div>
     </div>
     </div>
   );
