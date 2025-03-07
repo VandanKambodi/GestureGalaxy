@@ -2,15 +2,15 @@ import React from 'react';
 import './books.css';
 
 const books = [
-  { title: 'Basic Sign Language', author: 'John Doe', img: 'https://via.placeholder.com/150', description: 'Learn the basic signs for everyday communication.' },
-  { title: 'Advanced Sign Techniques', author: 'Jane Smith', img: 'https://via.placeholder.com/150', description: 'Master advanced sign language techniques.' },
-  { title: 'Sign Language for Kids', author: 'Emily Clark', img: 'https://via.placeholder.com/150', description: 'Fun and engaging signs for children.' },
-  { title: 'Medical Sign Language', author: 'Dr. James Lee', img: 'https://via.placeholder.com/150', description: 'Essential medical terms in sign language.' },
-  { title: 'Medical Sign Language', author: 'Dr. James Lee', img: 'https://via.placeholder.com/150', description: 'Essential medical terms in sign language.' },
-  { title: 'Advanced Sign Techniques', author: 'Jane Smith', img: 'https://via.placeholder.com/150', description: 'Master advanced sign language techniques.' },
-  { title: 'Advanced Sign Techniques', author: 'Jane Smith', img: 'https://via.placeholder.com/150', description: 'Master advanced sign language techniques.' },
-  { title: 'Advanced Sign Techniques', author: 'Jane Smith', img: 'https://via.placeholder.com/150', description: 'Master advanced sign language techniques.' },
-  { title: 'Medical Sign Language', author: 'Dr. James Lee', img: 'https://via.placeholder.com/150', description: 'Essential medical terms in sign language.' }
+  { title: 'Indian Sign Language', author: 'William Tomkins', img: './b1.png', description: 'Learn the basic signs for everyday communication.' },
+  { title: 'Analysis of Grammar', author: 'Samar Sinha', img: './b2.png', description: 'Understand Grammar in sign language techniques.' },
+  { title: 'Universal Indian sign language', author: 'William Tomkins', img: './b3.png', description: 'Gather the Knowledge.' },
+  { title: 'Indian Sign Language Linguistics', author: 'Dr. Sandeep Sharma', img: './b4.png', description: 'Book That Speak Without Words.' },
+  { title: 'Sign Talk', author: 'Seton Ernest Thompson', img: './b5.png', description: 'Let your Signs SpeakS.' },
+  { title: 'Quick Learning', author: 'Duke Irene', img: './b6.png', description: 'Techniques to Master sign language .' },
+  { title: 'Signing Everyday Phrases', author: 'Flodin Mickey', img: './b7.png', description: 'Learn more than 3400 signs.' },
+  { title: 'How Successful People Think', author: 'King Allen', img: './b8.png', description: 'Train your Brain.' },
+  { title: 'Guide for Sign Language', author: 'Costello Elaine', img: './b9.png', description: 'Learn to Speak With Your Hands.' }
 ];
 
 const BooksPage = () => {
