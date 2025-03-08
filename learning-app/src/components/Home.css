@@ -552,7 +552,7 @@
 }
 
 .hprime {
-    height: 500px;
+    height: 510px;
     width: 100%;
     background-color: rgb(66, 63, 83);
     display: flex;
@@ -613,4 +613,171 @@
 
 .pprime:hover {
     background-color: rgb(255, 0, 255);
+}
+
+@media (max-width: 938px) {
+    .part{
+        gap: 20px;
+    }
+}
+@media (max-width: 938px) {
+    .part{
+        gap: 10px;
+    }
+}
+@media (max-width: 855px) {
+    .himage{
+        height: 350px;
+        width: 350px;
+        object-fit: cover;
+    }
+}
+@media (max-width: 810px) {
+    .part{
+        gap: 0px;
+    }
+    .head{
+        font-size: 60px;
+    }
+    .para{
+        font-size: 16px;
+    }
+    .himage{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+    }
+    .left {
+        gap: 15px;
+    }
+}
+@media (max-width: 753px) {
+    .part{
+        gap: 0px;
+    }
+    .head{
+        font-size: 55px;
+    }
+    .para{
+        text-align: center;
+        width: 250px;
+        font-size: 16px;
+    }
+    .himage{
+        height: 280px;
+        width: 280px;
+        object-fit: cover;
+    }
+    .left {
+        gap: 15px;
+    }
+}
+@media (max-width: 700px) {
+    .right{
+        display: none;
+    }
+    .head{
+        font-size: 70px;
+    }
+    .para {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+@media (max-width: 410px) {
+    .right{
+        display: none;
+    }
+    .head{
+        font-size: 65px;
+    }
+    .para {
+        font-size: 16px;
+    }
+}
+@media (max-width: 368px) {
+    .right{
+        display: none;
+    }
+    .head{
+        font-size: 60px;
+    }
+    .para {
+        text-align: center;
+        width: 220px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 334px) {
+    .right{
+        display: none;
+    }
+    .head{
+        font-size: 55px;
+    }
+    .para {
+        
+        font-size: 16px;
+    }
+}
+@media (max-width: 303px) {
+    .right{
+        display: none;
+    }
+    .head{
+        font-size: 50px;
+    }
+    .para {
+        width: 200px;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+@media (max-width: 424px) {
+    .qp{
+        height: 8rem;
+        width: 20rem;
+    }
+}
+@media (max-width: 344px) {
+    .qp{
+        height: 6rem;
+        width: 15rem;
+    }
+}
+@media (max-width: 590px) {
+    .phead{
+        text-align: center;
+    }
+    .ppara{
+        text-align: center;
+    }
+    .pcontent{
+        gap: 20px;
+    }
+}
+@media (max-width: 440px) {
+    .phead{
+        font-size: 56px;
+    }
+    .ppara{
+        font-size: 22px;
+    }
+}
+@media (max-width: 418px) {
+    .phead{
+        font-size: 53px;
+    }
+    .ppara{
+        font-size: 20px;
+    }
+    .pprime{
+        width: 15rem;
+        height: 3rem;
+    }
+}
+@media (max-width: 302px) {
+    .phead{
+        font-size: 50px;
+    }
 }
