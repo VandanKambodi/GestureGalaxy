@@ -11,7 +11,7 @@ import NotFound from './components/NotFound.jsx';
 import Footer from './components/Footer.jsx';
 import Premium from './components/premium.jsx';
 import Books from './components/books.jsx';
-// import Basic from './components/basic.jsx';
+import Basic from './components/basic.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -88,15 +88,15 @@ const router = createBrowserRouter(
       </div>
     },
 
-    // {
-    //    path:"/basic",
-    //     element:
-    //     <div>
-    //         <Navbar/>
-    //         <Basic/>
-    //         <Footer/>
-    //     </div>
-    // }
+    {
+       path:"/basic",
+        element:
+        <div>
+            <Navbar/>
+            <Basic/>
+            <Footer/>
+        </div>
+    }
 
         
   ]
