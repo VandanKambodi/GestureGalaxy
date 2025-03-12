@@ -9,16 +9,54 @@ const basic = () => {
     <p className="basic-top-para">Learn sign language for different words with these short video lessons.</p>
     
     <div className="b-num-all">
-    <div className="basic-num">
-      <div className="b-num-left"></div>
-        <div className="b-text">
+    <div className="basic-num-part">
+        <div className="b-num-left">
+        {/* <div className="b-text"> */}
           <h2 className="b-num" >Numbers</h2>
           <p className="b-para">Sign language uses hand gestures to represent numbers, making it accessible for communication among the Deaf and Hard of Hearing community. Below is a basic guide for signing numbers in American Sign Language (ASL).</p>
+        {/* </div> */}
         </div>
-      <div className="b-num-right"></div>
+        <div className="b-num-right">
           <iframe src="https://www.youtube.com/embed/ZXqhw1b6_DY" title="numbers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
     </div>
     </div>
+    
+    <div className="b-alpha">
+        <div className="b-alpha-part">
+            <div className="b-alpha-up">
+                <h2 className="b-num" >Numbers</h2>
+                <p className="b-para">Sign language uses hand gestures to represent numbers, making it accessible for communication among the Deaf and Hard of Hearing community. Below is a basic guide for signing numbers in American Sign Language (ASL).</p>
+            </div>
+            <div className="b-alpha-down">
+                <div className="b-alpha-down-part">
+                    <div className="b-alpha-left">
+                        <div className="b-alpha-left-para">
+                            <h3>English</h3>
+                        </div>
+                        <div className="b-alpha-left-video">
+                            <iframe src="https://www.youtube.com/embed/FkKFYW3ZQ_w" title="single handed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div className="b-alpha-right">
+                        <div className="b-alpha-right-para">
+                            <h3>Gujarati</h3>
+                        </div>
+                        <div className="b-alpha-right-video">
+                            <iframe src="https://www.youtube.com/embed/ZXB_8AHG0PU" title="sign Language in Gujarati Alpha bates for Deaf and Dumb people" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
     {/* <div class="video-grid">
         <div class="video-item">
             <h3>Hello</h3>
