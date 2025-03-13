@@ -12,6 +12,7 @@ import Footer from './components/Footer.jsx';
 import Premium from './components/premium.jsx';
 import Books from './components/books.jsx';
 import Basic from './components/basic.jsx';
+import Emotion from './components/emotions.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -96,6 +97,16 @@ const router = createBrowserRouter(
             <Basic/>
             <Footer/>
         </div>
+    },
+
+    {
+      path:"/emotions",
+      element:
+      <div>
+          <Navbar/>
+          <Emotion/>
+          <Footer/>
+      </div>
     }
 
         

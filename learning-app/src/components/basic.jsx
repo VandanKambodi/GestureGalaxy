@@ -6,14 +6,15 @@ const basic = () => {
     <div className="ball">
     <div class="container">
     <h2 className="bhead">Basic Sign Language Lessons</h2>
-    <p className="basic-top-para">Learn sign language for different words with these short video lessons.</p>
+    <p className="basic-top-para">Learning basic sign language is the first step toward effective communication with the deaf and hard-of-hearing community. It includes essential signs like greetings, common phrases, questions, and everyday words. Using clear hand movements, facial expressions, and proper positioning is important for accurate signing. Regular practice will help improve fluency and confidence. Watch the video and follow along to learn the basics of sign language!</p>
     
     <div className="b-num-all">
     <div className="basic-num-part">
         <div className="b-num-left">
         {/* <div className="b-text"> */}
           <h2 className="b-num" >Numbers</h2>
-          <p className="b-para">Sign language uses hand gestures to represent numbers, making it accessible for communication among the Deaf and Hard of Hearing community. Below is a basic guide for signing numbers in American Sign Language (ASL).</p>
+          <p className="b-para">Numbers are an essential part of communication in sign language. Learning how to sign numbers will help you express quantities, tell time, and share important information.</p>
+          <p className="b-para">Mastering numbers in sign language will help you communicate more effectively. Watch the video and follow along to improve your skills!</p>
         {/* </div> */}
         </div>
         <div className="b-num-right">
@@ -26,7 +27,11 @@ const basic = () => {
         <div className="b-alpha-part">
             <div className="b-alpha-up">
                 <h2 className="b-alpha-num" >Alphabets</h2>
-                <p className="b-alpha-para">Sign language uses hand gestures to represent numbers, making it accessible for communication among the Deaf and Hard of Hearing community. Below is a basic guide for signing numbers in American Sign Language (ASL).</p>
+                <p className="b-alpha-para">The alphabet is the foundation of sign language. Knowing how to sign each letter allows you to spell out words, names, and unfamiliar terms.Learning the alphabet in sign language is the first step toward effective communication. The sign language alphabet, 
+                    also known as the fingerspelling alphabet, consists of 26 unique hand shapes, each representing a letter from A to Z. 
+                    Fingerspelling is used to spell out names, places, and words that do not have specific signs. 
+                    Some letters, like A, E, M, N, S, and T, require closed fingers, while others, like B, D, L, and U, have open hand shapes.
+                     It is important to pay attention to letters that look similar, such as M and N or D and G, to avoid confusion.</p>
             </div>
             <div className="b-alpha-down">
                 <div className="b-alpha-down-part">
@@ -47,7 +52,9 @@ const basic = () => {
         <div className="b-part-days">
         <div className="b-days-text1">
             <h3>Days</h3>
-            <p>hagshds hkjhsda jkhkjhsda jkjkaD IUWQ NMBdu kjiaS</p>
+            <p>Learning to sign the days of the week is important for everyday conversations. Each day has a unique sign,
+                 usually based on the first letter of the word, with a small circular motion. For example, Monday is signed with an "M" handshape, Tuesday with a "T," and so on. These signs help you discuss schedules, plan events,
+                 and talk about past or future activities.</p>
         </div>
         <div class="b-days-video-grid">
         <div class="b-days-video-item">
@@ -106,7 +113,7 @@ const basic = () => {
         </div>  
         </div>
         <div className="b-days-text2">
-            <p>dfs fdgs gfds sfdgs gs</p>
+            <p>Keep your hand steady, use clear movements, and practice regularly to improve fluency. </p>
         </div>
     </div>
     </div>
@@ -115,7 +122,8 @@ const basic = () => {
         <div className="b-part">
         <div className="b-color-text1">
             <h3>Colors</h3>
-            <p>hagshds hkjhsda jkhkjhsda jkjkaD IUWQ NMBdu kjiaS</p>
+            <p>Learning to sign colors is useful for describing objects, clothes, and the world around you. Most colors are signed using the first letter of the word with small hand movements, while some have unique gestures.
+                Practicing these signs will help you communicate more clearly.</p>
         </div>
         <div class="b-color-video-grid">
         <div class="b-color-video-item">
@@ -174,7 +182,7 @@ const basic = () => {
         </div> 
         </div>
         <div className="b-color-text2">
-            <p>dfs fdgs gfds sfdgs gs</p>
+            <p></p>
         </div>
     </div>
     </div>
@@ -183,7 +191,7 @@ const basic = () => {
         <div className="b-part-months">
         <div className="b-months-text1">
             <h3>Months</h3>
-            <p>hagshds hkjhsda jkh e. Each sign has an image, running video and threaded discussions. We are continually adding more signs and designing new services to empower the Deaf. Please share your ideas and comments and help us make this service better. Indiansignlanguage.org offers a huge collection of Indian Sign Language (ISL) signs. Each sign has an image, running video and threaded discussions. It is an ideal resource to use while you learn/teach Indian Sign Language. Each sign has an image, running video and threaded discussions. We are continually adding more signs and designing new services to empower the Deaf. Please share your ideas and comments and help us make this service better. Indiansignlanguage.org offers a huge collection of Indian Sign Language (ISL) sig kjhsda jkjkaD IUWQ NMBdu kjiaS</p>
+            <p>Learning to sign the months of the year is helpful for talking about dates, events, and schedules. In sign language, months are usually fingerspelled using abbreviations rather than full names. Practicing these signs regularly will make it easier to communicate about important dates.</p>
         </div>
         <div class="b-months-video-grid">
         <div class="b-months-video-item">
@@ -260,17 +268,14 @@ const basic = () => {
         </div> 
         </div>
         <div className="b-months-text2">
-            <p>dfs fdgs gfds sfdgs gs e. Each sign has an image, running video and threaded discussions. We are continually adding more signs and designing new services to empower the Deaf. Please share your ideas and comments and help us make this service better. Indiansignlanguage.org offers a huge collection of Indian Sign Language (ISL) signs. Each sign has an image, running video and threaded discussions. It is an ideal resource to use while you learn/teach Indian Sign Language. Each sign has an image, running video and threaded discussions. We are continually adding more signs and designing new services to empower the Deaf. Please share your ideas and comments and help us make this service better. Indiansignlanguage.org offers a huge collection of Indian Sign Language (ISL) sig</p>
+            <p></p>
         </div>
     </div>
     </div>
 
 </div>
 <div className="b-foot">
-        <p className="b-foot-para">Indiansignlanguage.org offers a huge collection of Indian Sign Language (ISL) signs. Each sign has an image, running video and threaded discussions. It is an ideal resource to use while you learn/teach Indian Sign Language.  Each sign has an image, running video and threaded discussions.  We are continually adding more signs and designing new services to empower the Deaf.
-        Please share your ideas and comments and help us make this service better. Indiansignlanguage.org offers a huge collection of Indian Sign Language (ISL) signs. Each sign has an image, running video and threaded discussions. It is an ideal resource to use while you learn/teach Indian Sign Language.  Each sign has an image, running video and threaded discussions.  We are continually adding more signs and designing new services to empower the Deaf.
-        Please share your ideas and comments and help us make this service better. Indiansignlanguage.org offers a huge collection of Indian Sign Language (ISL) signs. Each sign has an image, running video and threaded discussions. It is an ideal resource to use while you learn/teach Indian Sign Language.  Each sign has an image, running video and threaded discussions.  We are continually adding more signs and designing new services to empower the Deaf.
-        Please share your ideas and comments and help us make this service better. Learn sign language for different words with these short video lessons.</p>
+        <p className="b-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
     </div>
 </div>
   )
