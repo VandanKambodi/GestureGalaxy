@@ -8,7 +8,7 @@ const Footer = () => {
         
         <div class="footer-section">
             <h4 id="panel">Quick Links</h4>
-            <ul>
+            <ul className='f-ul'>
                 <li><a href="#">🧠Learn Sign Language</a></li>
                 <li><a href="#">▶️Videos</a></li>
                 <li><a href="/books">🕮 Dictionary</a></li>
@@ -27,19 +27,19 @@ const Footer = () => {
        
         <div class="footer-section">
             <h4 id="panel">Follow Us</h4>
-            <ul>
-                <li><a href="https://www.facebook.com/"><img src="./facebook.png" alt="Facebook"  width="45" /> Facebook</a></li> 
-                <li><a href="https://www.instagram.com/"><img src="./instagram.png" alt="Instagram"  height="20" /> Instagram</a></li>  
-                <li><a href="https://www.youtube.com/"><img src="./youtube.png" alt="YouTube"   height="20" /> YouTube</a></li>  
-                <li><a href="https://x.com/?lang=en"><img src="./twitter.png" alt="Twitter"  height="20" /> Twitter</a></li>  
-                <li><a href="https://in.linkedin.com/"><img src="./linkdin.png" alt="LinkedIn"  height="20" /> LinkedIn</a></li> 
+            <ul className='f-ul'>
+                <li><a href="https://www.facebook.com/" className='f-follow'><img src="./facebook.png" alt="Facebook"  width="45" /> Facebook</a></li> 
+                <li><a href="https://www.instagram.com/" className='f-follow'><img src="./instagram.png" alt="Instagram"  height="20" /> Instagram</a></li>  
+                <li><a href="https://www.youtube.com/" className='f-follow'><img src="./youtube.png" alt="YouTube"   height="20" /> YouTube</a></li>  
+                <li><a href="https://x.com/?lang=en" className='f-follow'><img src="./twitter.png" alt="Twitter"  height="20" /> Twitter</a></li>  
+                <li><a href="https://in.linkedin.com/" className='f-follow'><img src="./linkdin.png" alt="LinkedIn"  height="20" /> LinkedIn</a></li> 
             </ul>
         </div>
         
      
         <div class="footer-section">
             <h4 id="panel">Resources</h4>
-            <ul>
+            <ul className='f-ul'>
                 <li><a href="/books">Download Materials</a></li>
                 <li><a href="#">Accessibility Settings</a></li>
                 <li><a href="/about">Support & FAQs</a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
         
         <div class="footer-section">
             <h4 id="panel">Legal</h4>
-            <ul>
+            <ul className='f-ul'>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Use</a></li>
             </ul>

@@ -46,75 +46,93 @@ Creating a More Natural Flow of Communication - Just like in verbal conversation
         </div>
         <div class="b-months-video-grid">
         <div class="b-months-video-item">
-            <h3>January</h3>
+            <h3>Happy</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/YRCrJpcwteg" title="january-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/Jarh1WMa868" title="happy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>February</h3>
+            <h3>Sad</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/_yuawBKn9O0" title="february" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/P3LobzeDo9E" title="sad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="b-months-video-item">
-            <h3>March</h3>
+            <h3>Fear</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/IdrYzD-b0MU" title="march" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/inqCbpEQ4LM" title="fear" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="b-months-video-item">
-            <h3>April</h3>
+            <h3>Surprise</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/XCsc6GXwslU" title="april" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/ysoReRp9l9A" title="surprise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="b-months-video-item">
-            <h3>May</h3>
+            <h3>Love</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/yXkOz_A01t0" title="may" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/LZreqlssnWQ" title="love" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="b-months-video-item">
-            <h3>June</h3>
+            <h3>Jealous</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/18hKLmAVIMg" title="june" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/cfAXWBaT88Y" title="jealous" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div> 
          <div class="b-months-video-item">
-            <h3>July</h3>
+            <h3>Angry</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/jrpS8BdYE2g" title="july" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/C6Lf2U0ZDmQ" title="angry-3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>August</h3>
+            <h3>Confident</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/dGUBX9_VN7U" title="august-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-months-video-item">
-            <h3>September</h3>
-            <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/MVggQBRCOIw" title="september-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-months-video-item">
-            <h3>October</h3>
-            <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/U7Y3GocRUak" title="october" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-months-video-item">
-            <h3>November</h3>
-            <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/GqCMtSaTMwQ" title="november" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/6GToY6IT_Pg" title="confident" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>December</h3>
+            <h3>Guilty</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/y1XgtWNM-OM" title="december" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/7HfVuSW5Alw" title="guilty-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="b-months-video-item">
+            <h3>Help</h3>
+            <div class="b-months-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/d9fEfBJmy0Y" title="help" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div> 
+        <div class="b-months-video-item">
+            <h3>Patience</h3>
+            <div class="b-months-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/nYQJc4FIONc" title="patience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="b-months-video-item">
+            <h3>Hope</h3>
+            <div class="b-months-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/1TZXeenr980" title="hope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="b-months-video-item">
+            <h3>Trust</h3>
+            <div class="b-months-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/pFhX9i2XDVY" title="trust" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div> 
+        <div class="b-months-video-item">
+            <h3>Proud</h3>
+            <div class="b-months-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/8z32TzNwU7U" title="proud" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div> 
+        <div class="b-months-video-item">
+            <h3>Faith</h3>
+            <div class="b-months-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/mZPhzM2sh0E" title="faith" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div> 
         </div>

@@ -7,7 +7,7 @@ const premium = () => {
     <div className="pricing-container">
       <div className="pricing-grid">
         <div className="pricing-left-panel">
-          <h2> <span className="highlight">Get Your Plans</span></h2>
+          <h3> <span className="highlight">Get Your Plans</span></h3>
           <p>As a LITE user, you still get valuable learning tools to improve your sign language skills at your own pace.</p>
           <p>As a PLUS user, you have access to the most comprehensive sign language learning experience. With expert guidance, live sessions, and exclusive resources,
              you can master sign language with confidence.</p>

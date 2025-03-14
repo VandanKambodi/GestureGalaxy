@@ -45,6 +45,10 @@ html {
 .footer-section ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-section ul li {
