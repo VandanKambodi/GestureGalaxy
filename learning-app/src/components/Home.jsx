@@ -126,6 +126,16 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="hext">
+            <div className="hcon">
+              <div className="hcon-head">
+                <h1 className="hcon-head">Something about sign language</h1>
+              </div>
+              <div className="hcon-para">
+                <p className="hcon-para">Welcome to our site...</p>
+              </div>
+            </div>
+        </div>
         <div className="hprime">
             <div className="pcontent">
             <div className="phead">
