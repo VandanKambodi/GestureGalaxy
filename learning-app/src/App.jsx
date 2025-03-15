@@ -12,7 +12,9 @@ import Footer from './components/Footer.jsx';
 import Premium from './components/premium.jsx';
 import Books from './components/books.jsx';
 import Basic from './components/basic.jsx';
+import Food from './components/food.jsx';
 import Emotion from './components/emotions.jsx';
+import Words from './components/words.jsx'
 const router = createBrowserRouter(
   [
     {
@@ -105,6 +107,26 @@ const router = createBrowserRouter(
       <div>
           <Navbar/>
           <Emotion/>
+          <Footer/>
+      </div>
+    },
+
+    {
+      path:"/food",
+      element:
+      <div>
+          <Navbar/>
+          <Food/>
+          <Footer/>
+      </div>
+    },
+
+    {
+      path:"/words",
+      element:
+      <div>
+          <Navbar/>
+          <Words/>
           <Footer/>
       </div>
     }
