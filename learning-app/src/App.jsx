@@ -18,6 +18,7 @@ import Words from './components/words.jsx'
 import TutoNav from './components/TutoNav.jsx';
 import Core from './components/core.jsx';
 import Maths from './components/Maths.jsx';
+import Hands from './components/hands.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -165,7 +166,18 @@ const router = createBrowserRouter(
           <Maths/>
           <Footer/>
       </div>
+    },
+   
+    {
+      path:"/hand",
+      element:
+      <div>
+          <Navbar/>
+          <Hands/>
+          <Footer/>
+      </div>
     }
+
     
         
   ]

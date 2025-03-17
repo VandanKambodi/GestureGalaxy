@@ -4,118 +4,93 @@ const food = () => {
   return (
     <div className="ball">
     <div class="container">
-    <h2 className="bhead">Express Your Food Action</h2>
-    <p className="basic-top-para">Emotions are a fundamental part of human communication. They help us express our feelings, thoughts, and reactions to different situations. For the deaf and mute community, sign language is more than just hand movements—it is a rich and expressive form of communication that combines gestures, facial expressions, and body language to convey emotions effectively.</p>
+    <h2 className="bhead">Food Section</h2>
+    <p className="basic-top-para">Food is a fundamental part of our daily lives, and being able to communicate about it through sign language is essential for smooth interactions. Whether ordering at a restaurant, grocery shopping, or simply expressing food preferences, knowing the right signs can make communication easier and more inclusive. In this section, you will learn common food-related signs, 
+        including those for different meals, fruits, vegetables, beverages, and everyday food items. With videos and explanations, this guide will help you confidently express your needs and engage in meaningful conversations about food using sign language. </p>
     
     <div className="b-num-all">
     <div className="basic-num-part">
         <div className="b-num-left">
         {/* <div className="b-text"> */}
           <h2 className="b-num" >Eat</h2>
-          <p className="b-para">Unlike spoken languages, where tone of voice plays a key role in expressing feelings, sign language relies heavily on facial expressions and body movements. A simple sign can take on different meanings depending on the way it is expressed. For example, a slight change in the eyebrows, mouth shape, or eye movement can completely alter the emotion behind a message.</p>
+          <p className="b-para">Eating is a basic necessity and an important part of communication in sign language. Whether asking if someone is hungry, offering food, or discussing meal times, the sign for "eat" is commonly used in daily conversations. Mastering this sign allows for smooth interactions in various situations, such as ordering food, sharing meals, or expressing dietary needs. 
+            In this section, you will learn how to sign "eat" correctly and explore related words and phrases to enhance your ability to communicate about food using sign language.</p>
         {/* </div> */}
         </div>
         <div className="b-num-right">
-          <iframe src="" title="numbers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="340" src="https://www.youtube.com/embed/d4nkMcBvUZM" title="eat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
     </div>
-    
-    <div className="b-alpha">
-        <div className="b-alpha-part">
-            <div className="b-alpha-up">
-                <h2 className="b-alpha-num" >Why Are Emotions Important in Sign Language?</h2>
-                <p className="b-alpha-para">Enhancing Meaning - Emotions add depth to conversations. Without facial expressions, a signed sentence may lose its intended meaning. For example, the same sign for "fine" can express happiness, sarcasm, or frustration depending on the facial expression used.<br /><br />
-Building Stronger Connections - Expressing emotions clearly allows for deeper and more meaningful interactions. Whether it's joy, sadness, excitement, or concern, showing emotions helps create empathy and understanding between individuals.<br /><br />
-
-Avoiding Miscommunication - Without emotional expressions, some signs might be misunderstood. In spoken language, a person's tone helps clarify whether they are being serious, playful, or sarcastic. In sign language, facial expressions and body language serve the same purpose.<br /><br />
-
-Creating a More Natural Flow of Communication - Just like in verbal conversations, emotional expressions make sign language feel natural and engaging. It prevents conversations from feeling robotic or unclear.</p>
-            </div>
-           
-        </div>
-    </div>
-
    
-
     <div className="b-months">
         <div className="b-part-months">
         <div className="b-months-text1">
             <h3>Vegetables</h3>
-            <p>Learning to sign the months of the year is helpful for talking about dates, events, and schedules. In sign language, months are usually fingerspelled using abbreviations rather than full names. Practicing these signs regularly will make it easier to communicate about important dates.</p>
+            <p id="vegepara">Vegetables are an essential part of a healthy diet, and knowing how to communicate about them in sign language can be helpful in everyday conversations. Whether discussing meal preferences, grocery shopping, or making healthy choices, the ability to sign different vegetables allows for smoother communication. In this section,
+                 you will learn the sign for "vegetables" along with common vegetable names,
+                 helping you express your food choices with confidence. With clear explanations and video demonstrations, you’ll be able to use these signs effectively in daily interactions.</p>
         </div>
         <div class="b-months-video-grid">
         <div class="b-months-video-item">
-            <h3>Happy</h3>
+            <h3>Cabbage</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/Jarh1WMa868" title="happy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/UodmDnAnLmg" title="cabbage" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>Sad</h3>
+            <h3>Tomato</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/P3LobzeDo9E" title="sad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/GNOV9MdthUU" title="tomato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>Fear</h3>
+            <h3>Raddish</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/inqCbpEQ4LM" title="fear" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/ZQzqGalXdEU" title="raddish" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>Surprise</h3>
+            <h3>Potato</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/ysoReRp9l9A" title="surprise" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/hf9_mHO_dPg" title="potato" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>Love</h3>
+            <h3>Ginger</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/LZreqlssnWQ" title="love" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/xgQSpL99krE" title="ginger" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>Jealous</h3>
+            <h3>Garlic</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/cfAXWBaT88Y" title="jealous" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/ZzvSRtMXoSA" title="garlic" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
          <div class="b-months-video-item">
-            <h3>Angry</h3>
+            <h3>Cucumber</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/C6Lf2U0ZDmQ" title="angry-3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/GMAuU7yQo1k" title="cucumber" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>Confident</h3>
+            <h3>Carrot</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/6GToY6IT_Pg" title="confident" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/ztOfNdPNwAU" title="carrot" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>Guilty</h3>
+            <h3>BrinJal</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/7HfVuSW5Alw" title="guilty-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/6UUmcqXYDLA" title="brinjal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>Help</h3>
+            <h3>Cauliflower</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/d9fEfBJmy0Y" title="help" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/Sz-NQ2ENlqA" title="cauliflower" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>Patience</h3>
+            <h3>Chillie</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/nYQJc4FIONc" title="patience" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/T4BAyeuRKM4" title="chillie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>Hope</h3>
+            <h3>Beans</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/1TZXeenr980" title="hope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/oRWZCnGJmjY" title="beans" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         </div>
         <div className="b-months-text2">
@@ -128,64 +103,72 @@ Creating a More Natural Flow of Communication - Just like in verbal conversation
         <div className="b-part">
         <div className="b-color-text1">
             <h3>Fruits</h3>
-            <p>Learning to sign colors is useful for describing objects, clothes, and the world around you. Most colors are signed using the first letter of the word with small hand movements, while some have unique gestures.
-                Practicing these signs will help you communicate more clearly.</p>
+            <p>Fruits are a delicious and nutritious part of our diet, and being able to communicate about them in sign language is essential for everyday 
+                conversations. Whether discussing favorite fruits, grocery shopping, or talking about healthy eating habits, knowing the signs for different
+                 fruits makes interactions easier and more expressive. In this section, you will learn how to sign 
+                "fruit" and various common fruits, helping you expand your vocabulary and improve communication. </p>
         </div>
         <div class="b-color-video-grid">
         <div class="b-color-video-item">
-            <h3>Green</h3>
+            <h3>Fruits</h3>
             <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/wwQV7dGvw0s" title="Green" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/Yu6K4sXguXs" title="fruits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>
+        <div class="b-color-video-item">
+            <h3>Watermelon</h3>
+            <div class="b-color-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/Bmq6b73OAQ4" title="watermelon" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>
+        <div class="b-color-video-item">
+            <h3>Papaya</h3>
+            <div class="b-color-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/7ghzTv4t-MU" title="papaya" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>
+        <div class="b-color-video-item">
+            <h3>Sugarcane</h3>
+            <div class="b-color-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/mztpaGS8lno" title="sugarcane" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-color-video-item">
             <h3>Orange</h3>
             <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/DlyWuMwYeVc" title="Orange" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/cPzYNzLFQo0" title="orange" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-color-video-item">
-            <h3>Brown</h3>
+            <h3>Mango</h3>
             <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/dQ30qulPHvE" title="Brown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Pink</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/7zKiKasH-ec" title="Pink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Violet</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/yr0Mkvkfmi8" title="Violet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Blue</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/N6zCu36_1xI" title="Blue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/fcuSg0jzcwI" title="mango" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-color-video-item">
-            <h3>Red</h3>
+            <h3>Custurd apple</h3>
             <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/8NqmODtSLgI" title="Red" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/tNObn5kXF7Y" title="custard apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-color-video-item">
-            <h3>Yellow</h3>
+            <h3>Pomo granate</h3>
             <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/6sQeR9LXn-U" title="Yellow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/lTb-jocxY8A" title="pomogranate" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-color-video-item">
-            <h3>White</h3>
+            <h3>Banana</h3>
             <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/XOqFl-yg95M" title="White" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/DbWWsUmMXUA" title="banana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
+        <div class="b-color-video-item">
+            <h3>Chickoo</h3>
+            <div class="b-color-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/L0C9pyt3Iv0" title="chickoo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div> 
+        <div class="b-color-video-item">
+            <h3>Coconut</h3>
+            <div class="b-color-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/J6YkOCzKPpA" title="coconut-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div> 
+        <div class="b-color-video-item">
+            <h3>Apple</h3>
+            <div class="b-color-video-container">
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/Lu_R01JQky8" title="apple" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>  
         </div>
         <div className="b-color-text2">
             <p></p>
@@ -198,11 +181,11 @@ Creating a More Natural Flow of Communication - Just like in verbal conversation
         <div className="b-num-left">
         {/* <div className="b-text"> */}
           <h2 className="b-num" >How to do Drink action?</h2>
-          <p className="b-para">Unlike spoken languages, where tone of voice plays a key role in expressing feelings, sign language relies heavily on facial expressions and body movements. A simple sign can take on different meanings depending on the way it is expressed. For example, a slight change in the eyebrows, mouth shape, or eye movement can completely alter the emotion behind a message.</p>
+          <p className="b-para">Drinking is a basic daily activity, and knowing how to sign "drink" in sign language makes communication easier in many situations. Whether asking if someone is thirsty, offering a beverage, or ordering a drink, this sign is simple and widely used. The sign for "drink" mimics the action of holding and tilting a cup to the mouth, making it easy to remember and use. In this section, you will learn how to sign "drink" correctly.</p>
         {/* </div> */}
         </div>
         <div className="b-num-right">
-          <iframe src="" title="numbers" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="340" src="https://www.youtube.com/embed/6X8mSzwuKWw" title="drink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
     </div>

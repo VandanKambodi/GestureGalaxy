@@ -24,7 +24,7 @@ const BooksPage = () => {
             <h2 className='book-title'>{book.title}</h2>
             <h3 className='book-author'>{book.author}</h3>
             <p className='dis'>{book.description}</p>
-            <a href="" className="buy-button">Buy Now</a>
+            <a href="https://www.amazon.in/s?k=sign+language+book&crid=1KGMB881T17OW&sprefix=sign+lanhguage%2Caps%2C298&ref=nb_sb_ss_sc_1_13" className="buy-button">Buy Now</a>
           </div>
         ))}
       </div>
