@@ -15,6 +15,9 @@ import Basic from './components/basic.jsx';
 import Food from './components/food.jsx';
 import Emotion from './components/emotions.jsx';
 import Words from './components/words.jsx'
+import TutoNav from './components/TutoNav.jsx';
+import Core from './components/core.jsx';
+import Maths from './components/Maths.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -129,8 +132,41 @@ const router = createBrowserRouter(
           <Words/>
           <Footer/>
       </div>
-    }
+    },
 
+    {
+      path:"/tutorials",
+      element:
+      <div>
+          <Navbar/>
+          <TutoNav/>
+          <Core/>
+          <Footer/>
+      </div>
+    },
+
+    {
+      path:"/core",
+      element:
+      <div>
+          <Navbar/>
+          <TutoNav/>
+          <Core/>
+          <Footer/>
+      </div>
+    },
+
+    {
+      path:"/maths",
+      element:
+      <div>
+          <Navbar/>
+          <TutoNav/>
+          <Maths/>
+          <Footer/>
+      </div>
+    }
+    
         
   ]
 );

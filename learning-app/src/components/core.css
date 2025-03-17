@@ -1,0 +1,276 @@
+.core-container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    max-width: 1800px;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  h1,h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .core-info {
+    background: #6a0b6d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px 0px;
+    height: 350px;
+    width: 100%;
+  }
+  
+  .core-info h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .core-info p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #c9c3c3;
+  }
+  
+  
+  .tuto-core-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: #F8E7F6;
+  }
+  .tuto-core-num-part{
+    max-width: 920px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  .tuto-core-num-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 350px;
+  }
+  
+  .tuto-core-num-text h2 {
+    color: #42135c;
+    font-size: 35px;
+  }
+  
+  .tuto-core-num-text p {
+    font-size: 16px;
+    color: #776999;
+  }
+  .core-num-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+  }
+
+  .core-num-im{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+  }
+
+  .core-alpha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    background: #F8E7F6;;
+  }
+  .core-alpha-part{
+    max-width: 920px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  .core-alpha-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 350px;
+  }
+  
+  .core-alpha-text h2 {
+    color: #42135c;
+    font-size: 35px;
+  }
+  
+  .core-alpha-text p {
+    font-size: 16px;
+    color: #6c5899;
+  }
+  
+  .core-alpha-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+  }
+
+  .core-alpha-values {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background: #F8E7F6;
+  }
+
+  .core-alpha-info-text {
+    max-width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .core-alpha-info-text h2 {
+    color: #42135c;
+    font-size: 35px;
+  }
+  
+  .core-alpha-info-text p {
+    color: #6c5899;;
+    font-size: 16px;
+  }
+
+  .tuto-core-vowels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: #F8E7F6;
+  }
+  .tuto-core-vowels-part{
+    max-width: 920px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  .tuto-core-vowels-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 350px;
+  }
+  
+  .tuto-core-vowels-text h2 {
+    color: #42135c;
+    font-size: 35px;
+  }
+  
+  .tuto-core-vowels-text p {
+    font-size: 16px;
+    color: #776999;
+  }
+  .core-vowels-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+  }
+
+  .core-vowels-im{
+    height: 80%;
+    width: 100%;
+  }
+
+
+  .tuto-core-Consonant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background: #F8E7F6;
+  }
+  .tuto-core-Consonant-part{
+    max-width: 920px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+  .tuto-core-Consonant-text {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 350px;
+  }
+  
+  .tuto-core-Consonant-text h2 {
+    color: #42135c;
+    font-size: 35px;
+  }
+  
+  .tuto-core-Consonant-text p {
+    font-size: 16px;
+    color: #776999;
+  }
+  .core-Consonant-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 400px;
+  }
+
+  .core-Consonant-im{
+    height: 80%;
+    width: 100%;
+  }
+
+  .tuto-foot{
+    max-width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    background-color: #dd88cf;
+  }
+  
+  .tuto-foot-para{
+    text-align: center;
+    font-size: 16px;
+    color: #444242;
+    max-width: 80%;
+  }
