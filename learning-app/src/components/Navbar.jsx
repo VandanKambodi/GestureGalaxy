@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
+import GoogleTranslate from "./GoogleTranslate";
 import './Home.jsx'
 const Navbar = () => {
   return (
@@ -25,8 +26,9 @@ const Navbar = () => {
                 <Link to="/premium" id='l1'><img src="./premium.png" alt="premium"  width="25" />Premium</Link>
             </div>
             <div className="convert">
-                <button id='en'>English</button>
-                <button id='gu'>Gujarati</button>
+                {/* <button id='en'>English</button>
+                <button id='gu'>Gujarati</button> */}
+                <GoogleTranslate />
             </div>
             <div className="signup">
                 <Link to="/signup" id='sign'>Sign Up</Link>
