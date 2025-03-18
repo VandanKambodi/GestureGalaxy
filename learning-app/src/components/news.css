@@ -1,4 +1,4 @@
-.maths-container {
+.news-container {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 1800px;
     margin: 0%;
@@ -9,7 +9,7 @@
   h1,h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .maths-info {
+  .news-info {
     background: #6a0b6d;
     color: white;
     display: flex;
@@ -21,19 +21,19 @@
     width: 100%;
   }
   
-  .maths-info h1 {
+  .news-info h1 {
     font-size: 50px;
     margin-bottom: 20px;
   }
   
-  .maths-info p {
+  .news-info p {
     font-size: 18px;
     max-width: 800px;
     margin: 0 auto;
     color: #c9c3c3;
   }
-
-  .tuto-maths-num {
+  
+  .tuto-news-num {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,14 +42,14 @@
     height: 100%;
     background: #F8E7F6;
   }
-  .tuto-maths-num-part{
+  .tuto-news-num-part{
     margin-top: 30px;
     max-width: 920px;
     height: 100%;
     gap: 150px;
     text-align: center;
   }
-  .tuto-maths-num-text {
+  .tuto-news-num-text {
     max-width: 920px;
     display: flex;
     flex-direction: column;
@@ -59,16 +59,16 @@
     width: 100%;
   }
   
-  .tuto-maths-num-text h2 {
+  .tuto-news-num-text h2 {
     color: #42135c;
     font-size: 35px;
   }
   
-  .tuto-maths-num-text p {
+  .tuto-news-num-text p {
     font-size: 16px;
     color: #776999;
   }
-  .maths-num-image{
+  .news-num-image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,9 +76,57 @@
     width: 100%;
   }
 
-  .maths-num-im{
+  .news-num-im{
     height: 380px;
     width: 90%;
     object-fit: cover;
   }
   
+  .tuto-news2-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background: #F8E7F6;
+  }
+  .tuto-news2-num-part{
+    margin-top: 30px;
+    max-width: 920px;
+    height: 100%;
+    gap: 150px;
+    text-align: center;
+  }
+  .tuto-news2-num-text {
+    max-width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .tuto-news2-num-text h2 {
+    color: #42135c;
+    font-size: 35px;
+  }
+  
+  .tuto-news2-num-text p {
+    font-size: 16px;
+    color: #776999;
+  }
+  .news-num2-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+  }
+
+  .news-num2-im{
+    height: 380px;
+    width: 90%;
+    object-fit: cover;
+  }

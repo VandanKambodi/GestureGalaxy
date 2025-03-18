@@ -80,7 +80,7 @@
 
   .core-num-im{
     height: 250px;
-    width: 300px;
+    width: 100%;
     object-fit: cover;
   }
 

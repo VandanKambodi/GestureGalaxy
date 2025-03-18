@@ -19,6 +19,8 @@ import TutoNav from './components/TutoNav.jsx';
 import Core from './components/core.jsx';
 import Maths from './components/Maths.jsx';
 import Hands from './components/hands.jsx';
+import News from './components/news.jsx';
+import Science from './components/science.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -176,9 +178,29 @@ const router = createBrowserRouter(
           <Hands/>
           <Footer/>
       </div>
-    }
+    },
 
+    {
+      path:"/news",
+      element:
+      <div>
+          <Navbar/>
+          <TutoNav/>
+          <News/>
+          <Footer/>
+      </div>
+    },
     
+    {
+      path:"/science",
+      element:
+      <div>
+          <Navbar/>
+          <TutoNav/>
+          <Science/>
+          <Footer/>
+      </div>
+    }
         
   ]
 );
