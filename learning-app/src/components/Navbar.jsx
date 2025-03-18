@@ -41,8 +41,8 @@ const Navbar = () => {
             <Link to="/words" id='d1'>WORDS</Link>
             <Link to="/emotions" id='d1'>EMOTIONS</Link>    
             <Link to="/hand" id='d1'>HAND</Link>
-            <Link to="/face" id='d1'>FACE</Link>
             <Link to="/body" id='d1'>BODY</Link>
+            <Link to="/education" id='d1'>EDUCATION</Link>
         </div>      
     </div>
   )

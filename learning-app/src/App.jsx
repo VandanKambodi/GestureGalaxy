@@ -21,6 +21,8 @@ import Maths from './components/Maths.jsx';
 import Hands from './components/hands.jsx';
 import News from './components/news.jsx';
 import Science from './components/science.jsx';
+import Body from './components/body.jsx';
+import Education from './components/education.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -198,6 +200,26 @@ const router = createBrowserRouter(
           <Navbar/>
           <TutoNav/>
           <Science/>
+          <Footer/>
+      </div>
+    },
+  
+    {
+      path:"/body",
+      element:
+      <div>
+          <Navbar/>
+          <Body/>
+          <Footer/>
+      </div>
+    },
+
+    {
+      path:"/education",
+      element:
+      <div>
+          <Navbar/>
+          <Education/>
           <Footer/>
       </div>
     }
