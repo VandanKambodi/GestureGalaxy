@@ -22,8 +22,9 @@ const premium = () => {
           <ul>
             <li>✔ Video Tutorials.</li>
             <li>✔ Accessible Resources.</li>
+            <li>✔ No Certification available.</li>
             <li>✔ Quizzes with Progress.</li>
-            <li>✔ No Certification & Resources.</li>
+            <li>✔ English-to-Gujarati translation.</li>
             <li>✔ Free, for always.</li>
           </ul>
           <button className="pricing-button">Get Free</button>

@@ -132,153 +132,75 @@ const hands = () => {
     </div>
     </div>
     
-    <div className="b-color">
-        <div className="b-part">
-        <div className="b-color-text1">
-            <h3>Colors</h3>
-            <p>Learning to sign colors is useful for describing objects, clothes, and the world around you. Most colors are signed using the first letter of the word with small hand movements, while some have unique gestures.
-                Practicing these signs will help you communicate more clearly.</p>
-        </div>
-        <div class="b-color-video-grid">
-        <div class="b-color-video-item">
-            <h3>Green</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/wwQV7dGvw0s" title="Green" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Orange</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/DlyWuMwYeVc" title="Orange" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Brown</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/dQ30qulPHvE" title="Brown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Pink</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/7zKiKasH-ec" title="Pink" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Violet</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/yr0Mkvkfmi8" title="Violet" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div class="b-color-video-item">
-            <h3>Blue</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/N6zCu36_1xI" title="Blue" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div> 
-        <div class="b-color-video-item">
-            <h3>Red</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/8NqmODtSLgI" title="Red" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div> 
-        <div class="b-color-video-item">
-            <h3>Yellow</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/6sQeR9LXn-U" title="Yellow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div> 
-        <div class="b-color-video-item">
-            <h3>White</h3>
-            <div class="b-color-video-container">
-                <iframe width="560" height="340" src="https://www.youtube.com/embed/XOqFl-yg95M" title="White" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div> 
-        </div>
-        <div className="b-color-text2">
-            <p></p>
-        </div>
-    </div>
-    </div>
+    
 
     <div className="b-months">
         <div className="b-part-months">
         <div className="b-months-text1">
-            <h3>Months</h3>
-            <p>Learning to sign the months of the year is helpful for talking about dates, events, and schedules. In sign language, months are usually fingerspelled using abbreviations rather than full names. Practicing these signs regularly will make it easier to communicate about important dates.</p>
+            <h3>Science Objects</h3>
+            <p>Science objects are physical items or materials used to understand scientific principles. These objects can range from natural elements like rocks, plants, and water to laboratory tools such as microscopes, magnets, and test tubes. By interacting with these objects, students can develop a deeper understanding of concepts in physics, chemistry, and biology. In sign language education, visually demonstrating these objects helps bridge the gap between theoretical knowledge and practical learning, making science more accessible and engaging for deaf and mute students.</p>
         </div>
         <div class="b-months-video-grid">
         <div class="b-months-video-item">
-            <h3>January</h3>
+            <h3>Prism</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/YRCrJpcwteg" title="january-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/GRvD6_yvvdc" title="Prism" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>February</h3>
+            <h3>Focal Length</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/_yuawBKn9O0" title="february" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/NLEkfw25jWU" title="Focal Length" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>March</h3>
+            <h3>Plane Mirror</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/IdrYzD-b0MU" title="march" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/h8yZIUn2J7o" title="Plane Mirror" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>April</h3>
+            <h3>Glass Road</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/XCsc6GXwslU" title="april" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/tKKM601QlDM" title="Glass Bod" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>May</h3>
+            <h3>Video Camera</h3>
             <div class="b-months-video-container">
             <iframe width="560" height="340" src="https://www.youtube.com/embed/yXkOz_A01t0" title="may" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
         <div class="b-months-video-item">
-            <h3>June</h3>
+            <h3>Vision</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/18hKLmAVIMg" title="june" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/ZEGaQMAZwgE" title="Vision" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
          <div class="b-months-video-item">
-            <h3>July</h3>
+            <h3>Concave-convex lens</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/jrpS8BdYE2g" title="july" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/aOR-2KDf9pA" title="Concave-Convex Lenx" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>August</h3>
+            <h3>SpectroMeter</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/dGUBX9_VN7U" title="august-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/IIeXWQPIlqA" title="Spectrometer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>September</h3>
+            <h3>Projector</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/MVggQBRCOIw" title="september-2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/mty6yED1PpI" title="Projector" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>October</h3>
+            <h3>Spherical Mirror</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/U7Y3GocRUak" title="october" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/7xLp4cKj5eo" title="Sphoerical Mirror" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div>
         <div class="b-months-video-item">
-            <h3>November</h3>
+            <h3>Intensity</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/GqCMtSaTMwQ" title="november" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/gQMKC4C-H80" title="Intcnetly" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-months-video-item">
-            <h3>December</h3>
+            <h3>Telescope</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/y1XgtWNM-OM" title="december" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/NaiHTSSvCuE" title="Telescope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         </div>
         <div className="b-months-text2">
@@ -289,7 +211,9 @@ const hands = () => {
 
 </div>
 <div className="b-foot">
-        <p className="b-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="b-foot-para">Science is all around us, from the smallest atoms to the vast universe. Understanding science objects helps us connect with the world in a meaningful way. Keep exploring, keep questioning, and let curiosity be your guide in learning. With sign language, science becomes more accessible, making learning fun and engaging for everyone. Stay curious, keep experimenting, and never stop discovering new possibilities! <br />
+
+📚 Keep Learning | Keep Growing | Keep Exploring 🌍✨</p>
     </div>
 </div>
   )

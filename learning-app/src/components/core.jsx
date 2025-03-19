@@ -4,11 +4,9 @@ const core = () => {
   return (
     <div className="core-container">
       <div className="core-info">
-        <h1>Gujarati</h1>
+        <h1>Core Learning: Building the Basics</h1>
         <p>
-          We are dedicated to making sign language learning easy, accessible, and interactive for the deaf and mute community.
-          Our platform provides comprehensive resources, empowering individuals to communicate confidently and fostering an inclusive society where everyone is heard and understood.
-        </p>
+        Learning starts with the basics—numbers, alphabets, and tables. These fundamental skills help in reading, writing, and problem-solving. Mastering them builds confidence and makes learning easier. A strong foundation in core concepts leads to success in academics and everyday life. Let’s strengthen these basics together!        </p>
       </div>
 
       <div className="tuto-core-num">
@@ -16,8 +14,7 @@ const core = () => {
           <div className="tuto-core-num-text">
             <h2>Numbers</h2>
             <p>
-              Our mission is to bridge the communication gap for the deaf and mute community by providing a comprehensive, accessible, and interactive platform for learning sign language.
-              We strive to empower individuals, families, and educators with high-quality resources that foster inclusion, understanding, and seamless communication.
+            Numbers are an essential part of our daily lives, helping us count, measure, and solve problems. In sign language, each number has a unique sign, making it easier for deaf and mute individuals to understand and communicate mathematical concepts. Learning numbers through sign language strengthens basic math skills and builds confidence in calculations. Watch the video to learn how to sign numbers correctly and practice them in everyday situations
             </p>
           </div>
           <div className="core-num-image">
@@ -34,8 +31,7 @@ const core = () => {
           <div className="core-alpha-text">
             <h2>Alphabets</h2>
             <p>
-              We envision a world where sign language is universally recognized, respected, and embraced as an essential form of communication.
-              Our goal is to create an inclusive society where the deaf and mute community can express themselves freely, breaking barriers and fostering meaningful connections.
+            Alphabets are the building blocks of language, helping us form words and sentences. In sign language, each letter has a distinct hand sign, making communication easier for the deaf and mute community. Learning alphabets through sign language is the first step toward reading, writing, and expressing thoughts effectively. Watch the video to learn the correct signs for each letter and start your journey toward better communication
             </p>
           </div>
         </div>

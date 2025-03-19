@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './login.css'
 import './Navbar.jsx'
 import { Link } from 'react-router-dom'
-    const login = () => {
+    const Login = () => {
         const [user, setUser] = useState({
         email: '',
         password: ''
@@ -54,4 +54,4 @@ import { Link } from 'react-router-dom'
         </div>
         )
   }
-export default login
+export default Login

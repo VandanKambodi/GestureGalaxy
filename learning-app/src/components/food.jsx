@@ -192,7 +192,7 @@ const food = () => {
 
 </div>
 <div className="b-foot">
-        <p className="b-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="b-foot-para">"Food is not just a necessity; it's a way to bring people together, celebrate cultures, and enjoy different flavors. Learning food-related words in sign language helps improve communication and makes dining experiences more inclusive. From fruits and vegetables to delicious meals, every bite tells a story. Keep exploring, keep tasting, and enjoy the journey of food!"</p>
     </div>
 </div>
   )

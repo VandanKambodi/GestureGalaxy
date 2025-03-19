@@ -6,8 +6,7 @@ const science = () => {
       <div className="science-info">
         <h1>Science</h1>
         <p>
-          We are dedicated to making sign language learning easy, accessible, and interactive for the deaf and mute community.
-          Our platform provides comprehensive resources, empowering individuals to communicate confidently and fostering an inclusive society where everyone is heard and understood.
+        Science helps us understand the natural world through observation, experiments, and innovation. From the tiniest cells to the vast universe, it explains how things work and why they happen. Science fuels curiosity, leading to new inventions and solutions that shape our future. Let’s explore the wonders of science together!
         </p>
       </div>
 
@@ -19,8 +18,7 @@ const science = () => {
           <div className="core-alpha-text">
             <h2>Physics</h2>
             <p>
-              We envision a world where sign language is universally recognized, respected, and embraced as an essential form of communication.
-              Our goal is to create an inclusive society where the deaf and mute community can express themselves freely, breaking barriers and fostering meaningful connections.
+            Physics is the branch of science that studies matter, energy, and their interactions. It explains natural phenomena such as motion, forces, heat, light, electricity, and magnetism. Physics is essential in understanding how the universe works, from tiny atoms to massive galaxies. It is divided into various fields, including mechanics, thermodynamics, electromagnetism, and quantum physics. This subject plays a key role in technology, engineering, and daily life, influencing everything from transportation to medical advancements. 
             </p>
           </div>
         </div>
@@ -31,8 +29,7 @@ const science = () => {
           <div className="tuto-core-num-text">
             <h2>Biology</h2>
             <p>
-              Our mission is to bridge the communication gap for the deaf and mute community by providing a comprehensive, accessible, and interactive platform for learning sign language.
-              We strive to empower individuals, families, and educators with high-quality resources that foster inclusion, understanding, and seamless communication.
+            Biology is the study of living organisms, their structures, functions, growth, and interactions with the environment. It covers various fields, including botany (plants), zoology (animals), microbiology (microorganisms), and genetics. Biology helps us understand how life evolves, how the human body works, and how ecosystems function. It plays a crucial role in medicine, agriculture, and environmental conservation.
             </p>
           </div>
           <div className="core-num-image">
@@ -50,9 +47,8 @@ const science = () => {
           <div className="core-alpha-text">
             <h2>Maths</h2>
             <p>
-              We envision a world where sign language is universally recognized, respected, and embraced as an essential form of communication.
-              Our goal is to create an inclusive society where the deaf and mute community can express themselves freely, breaking barriers and fostering meaningful connections.
-            </p>
+            Mathematics is the study of numbers, patterns, and logical reasoning. It includes branches like arithmetic, algebra, geometry, and calculus. Math is essential in daily life, science, and technology. It helps with problem-solving, measurements, and data analysis. Many industries rely on math for innovation and development. Learning math improves logical thinking and decision-making skills. It plays a crucial role in advancements like artificial intelligence and space exploration.
+</p>
           </div>
         </div>
       </div>
@@ -62,8 +58,7 @@ const science = () => {
           <div className="tuto-core-num-text">
             <h2>Chemistry</h2>
             <p>
-              Our mission is to bridge the communication gap for the deaf and mute community by providing a comprehensive, accessible, and interactive platform for learning sign language.
-              We strive to empower individuals, families, and educators with high-quality resources that foster inclusion, understanding, and seamless communication.
+            Chemistry is the study of matter, its properties, composition, and the changes it undergoes. It is divided into branches like organic, inorganic, physical, and analytical chemistry. Chemistry is essential in daily life, medicine, and industry. It helps in understanding chemical reactions, energy transformations, and material production. Many industries rely on chemistry for developing medicines, plastics, and fuels. Learning chemistry improves problem-solving and analytical skills. It plays a crucial role in advancements like drug discovery and environmental protection.
             </p>
           </div>
           <div className="core-num-image">
@@ -73,7 +68,7 @@ const science = () => {
       </div>
 
       <div className="tuto-foot">
-        <p className="tuto-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="tuto-foot-para">Science is the key to understanding the world around us. From the tiniest atoms to the vastness of space, it helps us uncover the mysteries of nature, technology, and life itself. Whether studying the forces that shape our planet, the chemical reactions that power life, or the biological systems that sustain us, science is the foundation of discovery and progress.</p>
     </div>
     </div>
   )

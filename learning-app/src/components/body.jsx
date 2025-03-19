@@ -337,7 +337,7 @@ In sign language, adjectives are often emphasized through facial expressions and
 
 </div>
 <div className="b-foot">
-        <p className="b-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="b-foot-para">"Our body is a remarkable system that helps us move, feel, and express ourselves. Understanding body parts through sign language allows for better communication about health, actions, and emotions. From head to toe, every part of the body plays an important role in daily life. Keep learning, stay active, and appreciate the amazing functions of your body!"</p>
     </div>
 </div>
   )

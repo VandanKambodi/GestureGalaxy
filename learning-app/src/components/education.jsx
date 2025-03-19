@@ -146,7 +146,7 @@ const education = () => {
 
 </div>
 <div className="b-foot">
-        <p className="b-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="b-foot-para">"Education is the key to unlocking endless opportunities and building a brighter future. It empowers us with knowledge, skills, and confidence to achieve our dreams. Learning through sign language makes education more inclusive, ensuring that everyone has access to the power of knowledge. Keep learning, keep growing, and let education be your pathway to success!"</p>
     </div>
 </div>
   )

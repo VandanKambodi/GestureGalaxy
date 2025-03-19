@@ -144,7 +144,7 @@ Creating a More Natural Flow of Communication - Just like in verbal conversation
 
 </div>
 <div className="b-foot">
-        <p className="b-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="b-foot-para">"Emotions are a powerful part of human expression, helping us communicate feelings like happiness, sadness, anger, and love. Understanding emotions through sign language allows for deeper connections and better communication. No matter what you feel, expressing emotions is an important part of life. Stay connected, be expressive, and embrace every emotion with confidence!"</p>
     </div>
 </div>
   )

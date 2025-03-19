@@ -6,8 +6,7 @@ const Maths = () => {
       <div className="maths-info">
         <h1>Maths</h1>
         <p>
-          We are dedicated to making sign language learning easy, accessible, and interactive for the deaf and mute community.
-          Our platform provides comprehensive resources, empowering individuals to communicate confidently and fostering an inclusive society where everyone is heard and understood.
+        Mathematics is the foundation of logical thinking and creativity. It helps us solve problems, analyze patterns, and make smart decisions in daily life. From simple calculations to complex equations, math strengthens our reasoning skills and builds a strong academic base. Let’s dive into the world of numbers and discover their power!
         </p>
       </div>
 
@@ -16,9 +15,7 @@ const Maths = () => {
           <div className="tuto-core-num-text">
             <h2>Sum</h2>
             <p>
-              Our mission is to bridge the communication gap for the deaf and mute community by providing a comprehensive, accessible, and interactive platform for learning sign language.
-              We strive to empower individuals, families, and educators with high-quality resources that foster inclusion, understanding, and seamless communication.
-            </p>
+            The sign for "sum" represents the total of added numbers. One hand stays open, palm up, while the other taps it to show addition. Finally, both hands come together to indicate the total. This sign is useful for discussing basic math in sign language.            </p>
           </div>
           <div className="core-num-image">
           <iframe className="core-num-im" width="853" height="480" src="https://www.youtube.com/embed/2Ge_qUHMYPw" title="Integers-Addition" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -34,8 +31,7 @@ const Maths = () => {
           <div className="core-alpha-text">
             <h2>Substract</h2>
             <p>
-              We envision a world where sign language is universally recognized, respected, and embraced as an essential form of communication.
-              Our goal is to create an inclusive society where the deaf and mute community can express themselves freely, breaking barriers and fostering meaningful connections.
+            The sign for "subtract" represents taking away a number from another. One hand is open with the palm facing up, while the other hand pulls fingers away to indicate removal. This gesture visually demonstrates subtraction in sign language. It is commonly used in mathematical discussions and everyday conversations. For example, it helps express equations like "10 minus 4 equals 6."
             </p>
           </div>
         </div>
@@ -46,8 +42,7 @@ const Maths = () => {
           <div className="tuto-core-num-text">
             <h2>Multiplication</h2>
             <p>
-              Our mission is to bridge the communication gap for the deaf and mute community by providing a comprehensive, accessible, and interactive platform for learning sign language.
-              We strive to empower individuals, families, and educators with high-quality resources that foster inclusion, understanding, and seamless communication.
+            The sign for "multiplication" represents the process of multiplying numbers. To perform this sign, both hands form an "X" shape by crossing the index fingers. This gesture symbolizes the multiplication operation. It is commonly used in math discussions and daily conversations involving numbers. For example, it helps express equations like "3 times 4 equals 12."
             </p>
           </div>
           <div className="core-num-image">
@@ -64,8 +59,7 @@ const Maths = () => {
           <div className="core-alpha-text">
             <h2>Division</h2>
             <p>
-              We envision a world where sign language is universally recognized, respected, and embraced as an essential form of communication.
-              Our goal is to create an inclusive society where the deaf and mute community can express themselves freely, breaking barriers and fostering meaningful connections.
+            The sign for "division" represents the process of separating a number into equal parts. To perform this sign, one hand moves downward with two fingers extended, while the other hand mirrors the motion below, creating a visual separation. This gesture symbolizes division in mathematical discussions. It is commonly used to express equations like "8 divided by 2 equals 4."
             </p>
           </div>
         </div>
@@ -76,10 +70,7 @@ const Maths = () => {
           <div className="tuto-maths-num-text">
             <h2>Tables</h2>
             <p>
-            The video you've shared is titled "Japanese PM enjoyed Gujarati food with PM Modi – Indian Sign Language News" by NewzHook.com. It reports on the visit of Japanese Prime Minister Shinzo Abe to Ahmedabad, Gujarat, where he was welcomed by Indian Prime Minister Narendra Modi. During his two-day visit, PM Abe experienced traditional Gujarati cuisine, highlighting the cultural exchange between the two nations.
-            The video is presented in Indian Sign Language, making it accessible to the deaf and hard-of-hearing community. NewzHook.com is known for producing news content in sign language, promoting inclusivity and accessibility in media.
-
-For a more detailed understanding, you can watch the full video here:
+            A multiplication table is a mathematical chart that displays the products of numbers when multiplied together. It helps learners quickly find answers to multiplication problems by organizing numbers in rows and columns. The table usually starts with smaller numbers, such as 1 to 10, making it easier to memorize basic multiplication facts. For example, in a standard multiplication table, 3 × 4 = 12 and  , 5 × 6 = 30. Understanding multiplication tables is essential for solving more complex math problems efficiently. They are widely used in schools to teach arithmetic and develop strong calculation skills.
             </p>
           </div>
           <div className="maths-num-image">
@@ -89,7 +80,7 @@ For a more detailed understanding, you can watch the full video here:
       </div>
 
       <div className="tuto-foot">
-        <p className="tuto-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="tuto-foot-para">Mathematics is more than just numbers and equations—it’s a universal language that helps us understand the world. From solving everyday problems like budgeting and time management to shaping groundbreaking discoveries in science, engineering, and technology, math is everywhere. Whether you're calculating distances, analyzing data, or designing structures, mathematical concepts are at the core of innovation.</p>
     </div>
 
     </div>

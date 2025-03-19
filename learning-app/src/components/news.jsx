@@ -6,8 +6,7 @@ const news = () => {
       <div className="news-info">
         <h1>NEWS</h1>
         <p>
-          We are dedicated to making sign language learning easy, accessible, and interactive for the deaf and mute community.
-          Our platform provides comprehensive resources, empowering individuals to communicate confidently and fostering an inclusive society where everyone is heard and understood.
+        Every headline tells a story, shaping the way we see and understand the world. News keeps us informed, sparks conversations, and connects us to the events that matter. From breakthroughs in science to global happenings, staying updated helps us grow and adapt. Let’s explore the stories shaping our future!
         </p>
       </div>
 
@@ -48,7 +47,9 @@ For a more detailed understanding, you can watch the full video here:
       </div>
 
       <div className="tuto-foot">
-        <p className="tuto-foot-para">Mastering basic sign language opens the door to better communication and inclusivity. By learning essential signs like greetings, numbers, colors, and days of the week, you can engage in meaningful conversations with the deaf and hard-of-hearing community. Consistent practice and clear hand movements will improve your fluency and confidence over time. Sign language is not just about hand gestures—it also involves facial expressions and body language to convey emotions and meaning. Keep practicing, stay patient, and enjoy the journey of learning this beautiful language.</p>
+        <p className="tuto-foot-para"><center><h2>Stay Informed, Stay Ahead</h2></center><br />
+        News keeps us connected to the world, shaping our understanding of current events, innovations, and social changes. Whether it's breakthroughs in science, advancements in technology, or important global developments, staying informed empowers us to make better decisions and contribute to society.
+       Knowledge is power, and every headline holds a story that can inspire, educate, or challenge our perspectives. As the world evolves, so does the information that drives progress. Keep exploring, questioning, and learning from reliable sources.</p>
     </div>
 
     </div>
