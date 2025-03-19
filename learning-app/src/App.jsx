@@ -23,6 +23,7 @@ import News from './components/news.jsx';
 import Science from './components/science.jsx';
 import Body from './components/body.jsx';
 import Education from './components/education.jsx';
+import Quiz from './components/quiz.jsx';
 const router = createBrowserRouter(
   [
     {
@@ -220,6 +221,16 @@ const router = createBrowserRouter(
       <div>
           <Navbar/>
           <Education/>
+          <Footer/>
+      </div>
+    },
+
+    {
+      path:"/certificate",
+      element:
+      <div>
+          <Navbar/>
+          <Quiz/>
           <Footer/>
       </div>
     }

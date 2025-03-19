@@ -13,7 +13,7 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className="tuto"><Link to="/tutorials" id='l1'><img src="./tutor.png" alt="tut"  width="25" />Tutorials</Link></div>
-            <div className="certi"><Link to="/certification" id='l1'><img src="./certificate-.png" alt="certi"  width="25" />Certification</Link></div>
+            <div className="certi"><Link to="/certificate" id='l1'><img src="./certificate-.png" alt="certi"  width="25" />Certification</Link></div>
             <div className="book"><Link to="/books" id='l1'x>'<img src="./books.png" alt="books"  width="25" />Books</Link></div>
             <div className="search">
                 <input id='searchBar' className="find" type="text" placeholder="Search.."/>

@@ -1,0 +1,87 @@
+.report-card {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 2px solid #ddd;
+    text-align: left;
+  }
+  
+  .report-card h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .report-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .quiz-container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-image {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .question-section h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    background: #f1f1f1;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .options button:hover {
+    background: #dd88cf;
+    color: white;
+  }
+  
+  .score-section h2 {
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  .review-section {
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .review-section h4 {
+    font-size: 18px;
+    color: #dd3333;
+  }
+  
+  .review-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .review-section li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  

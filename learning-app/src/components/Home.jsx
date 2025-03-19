@@ -5,9 +5,21 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <section className="hero">
-        <div className="main">
+        {/* <div className="main">
+          <img className="main-img" src="./w3.jpg" alt="" />
+        </div> */}
+      <div className="hero-container">
+        <h1 className="hero-title">Learn Sign</h1>
+        <p className="hero-subtitle">
+          With the world's largest learning sign language site.
+        </p>
+        <Link to="/basic" className="begin-link">
+          Not Sure Where To Begin?
+        </Link>
+        <img src="./astro-main.png" alt="Astronaut Mascot" className="hero-image" />
+      </div>
 
-        </div>
+
         <div className="basic">
           <div className="part">
             <div className="left">
@@ -86,11 +98,11 @@ const Home = () => {
         <div className="face">
           <div className="part">
             <div className="left">
-              <h1 className="head">FACE</h1>
+              <h1 className="head">EDUCATION</h1>
               <p className="para">When words are silent, the face speaks</p>
-              <Link className="fa1" to="/face">Get Started</Link>
-              <Link className="fa2" to="/face">Video Tutorial</Link>
-              <Link className="fa3" to="/face">Reference</Link>
+              <Link className="fa1" to="/education">Get Started</Link>
+              <Link className="fa2" to="/education">Video Tutorial</Link>
+              <Link className="fa3" to="/education">Reference</Link>
               <Link className="fa4" to="/certificate">Give Quiz</Link>
             </div>
             <div className="right">
@@ -121,7 +133,7 @@ const Home = () => {
             </div>
             <div className="down">
                 <div className="ex">
-                  <Link to="/certification" className="qp">Quizzes</Link>
+                  <Link to="/certificate" className="qp">Quizzes</Link>
                 </div>
             </div>
           </div>
