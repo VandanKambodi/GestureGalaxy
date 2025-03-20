@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './signup.css';
 import { Link } from 'react-router-dom';
 import './Navbar.jsx'
-const signup = () => {
+const Signup = () => {
   const [user, setUser] = useState({
     name: '',
     email: '',
@@ -64,4 +64,4 @@ const signup = () => {
   );
 };
 
-export default signup;
+export default Signup;
