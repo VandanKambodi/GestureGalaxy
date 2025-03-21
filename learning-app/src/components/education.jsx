@@ -126,8 +126,7 @@ const education = () => {
         <div class="b-months-video-item">
             <h3>Classroom</h3>
             <div class="b-months-video-container">
-            <iframe width="560" height="340" src="https://www.youtube.com/embed/y1XgtWNM-OM" title="december" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+            <iframe width="560" height="340" src="https://www.youtube.com/embed/Bh9e-exemes" title="class room" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
         </div> 
         <div class="b-months-video-item">
             <h3>Certificate</h3>
