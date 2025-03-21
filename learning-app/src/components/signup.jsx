@@ -13,9 +13,27 @@ const Signup = () => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert(`Signup Successful\nName: ${user.name}\nEmail: ${user.email}`);
+    try {
+      const response = await fetch("http://localhost:5000/api/auth/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(user),
+      });
+  
+      const data = await response.json();
+  
+      if (response.ok) {
+        alert("Signup Successful");
+        window.location.href = "/login"; // Redirect to login page
+      } else {
+        alert(data.message); // Show error message from backend
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Signup failed. Try again.");
+    }
   };
 
   return (

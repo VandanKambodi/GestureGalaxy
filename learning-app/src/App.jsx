@@ -1,7 +1,5 @@
-import './App.css'
-import {  createBrowserRouter, 
-  RouterProvider } from 
-"react-router-dom";
+import './App.css';
+import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 import Navbar from './components/Navbar.jsx';
 import Home from './components/Home.jsx';
 import Signup from './components/signup.jsx';
@@ -14,7 +12,7 @@ import Books from './components/books.jsx';
 import Basic from './components/basic.jsx';
 import Food from './components/food.jsx';
 import Emotion from './components/emotions.jsx';
-import Words from './components/words.jsx'
+import Words from './components/words.jsx';
 import TutoNav from './components/TutoNav.jsx';
 import Core from './components/core.jsx';
 import Maths from './components/Maths.jsx';
@@ -24,227 +22,49 @@ import Science from './components/science.jsx';
 import Body from './components/body.jsx';
 import Education from './components/education.jsx';
 import Quiz from './components/quiz.jsx';
-const router = createBrowserRouter(
-  [
-    {
-      path:"*",
-      element:
-      <div>
-          <NotFound/>
-      </div>
-    },
 
-    {
-      path:"/",
-      element: 
-      <div>
-          <Navbar/>
-          <Home/>
-          <Footer/>
-      </div>     
-    },
+// Function to check if user is authenticated
+const isAuthenticated = () => !!localStorage.getItem("token");
 
-    {
-      path:"/home",
-      element: 
-      <div>
-          <Navbar/>
-          <Home/>
-          <Footer/>
-      </div>     
-    },
+// Protect routes that require login
+const ProtectedRoute = ({ element }) => {
+  return isAuthenticated() ? element : <Navigate to="/signup" />;
+};
 
-    {
-      path:"/signup",
-      element:
-      <div>
-          <Signup/>
-      </div>
-    },
+// Create router with authentication checks
+const router = createBrowserRouter([
+  { path: "*", element: <NotFound /> },
 
-    {
-      path:"/login",
-      element:
-      <div>
-          <Login/>
-      </div>
-    },
+  // Redirect to Signup if not logged in
+  { path: "/", element: isAuthenticated() ? <Navigate to="/signup" /> : <Signup /> },
 
-    {
-      path:"/about",
-      element:
-      <div>
-          <Navbar/>
-          <About/>
-          <Footer/>
-      </div>
-    },
+  // Public Routes
+  { path: "/signup", element: <Signup /> },
+  { path: "/login", element: <Login /> },
+  { path: "/about", element: <><Navbar /><About /><Footer /></> },
 
-    {
-      path:"/premium",
-      element:
-      <div>
-          <Navbar/>
-          <Premium/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/books",
-      element:
-      <div>
-          <Navbar/>
-          <Books/>
-          <Footer/>
-      </div>
-    },
-
-    {
-       path:"/basic",
-        element:
-        <div>
-            <Navbar/>
-            <Basic/>
-            <Footer/>
-        </div>
-    },
-
-    {
-      path:"/emotions",
-      element:
-      <div>
-          <Navbar/>
-          <Emotion/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/food",
-      element:
-      <div>
-          <Navbar/>
-          <Food/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/words",
-      element:
-      <div>
-          <Navbar/>
-          <Words/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/tutorials",
-      element:
-      <div>
-          <Navbar/>
-          <TutoNav/>
-          <Core/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/core",
-      element:
-      <div>
-          <Navbar/>
-          <TutoNav/>
-          <Core/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/maths",
-      element:
-      <div>
-          <Navbar/>
-          <TutoNav/>
-          <Maths/>
-          <Footer/>
-      </div>
-    },
-   
-    {
-      path:"/hand",
-      element:
-      <div>
-          <Navbar/>
-          <Hands/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/news",
-      element:
-      <div>
-          <Navbar/>
-          <TutoNav/>
-          <News/>
-          <Footer/>
-      </div>
-    },
-    
-    {
-      path:"/science",
-      element:
-      <div>
-          <Navbar/>
-          <TutoNav/>
-          <Science/>
-          <Footer/>
-      </div>
-    },
-  
-    {
-      path:"/body",
-      element:
-      <div>
-          <Navbar/>
-          <Body/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/education",
-      element:
-      <div>
-          <Navbar/>
-          <Education/>
-          <Footer/>
-      </div>
-    },
-
-    {
-      path:"/certificate",
-      element:
-      <div>
-          <Navbar/>
-          <Quiz/>
-          <Footer/>
-      </div>
-    }
-        
-  ]
-);
+  // Protected Routes (Only logged-in users can access)
+  { path: "/", element: <ProtectedRoute element={<><Signup /></>} /> },
+  { path: "/home", element: <ProtectedRoute element={<><Navbar /><Home /><Footer /></>} /> },
+  { path: "/premium", element: <ProtectedRoute element={<><Navbar /><Premium /><Footer /></>} /> },
+  { path: "/books", element: <ProtectedRoute element={<><Navbar /><Books /><Footer /></>} /> },
+  { path: "/basic", element: <ProtectedRoute element={<><Navbar /><Basic /><Footer /></>} /> },
+  { path: "/emotions", element: <ProtectedRoute element={<><Navbar /><Emotion /><Footer /></>} /> },
+  { path: "/food", element: <ProtectedRoute element={<><Navbar /><Food /><Footer /></>} /> },
+  { path: "/words", element: <ProtectedRoute element={<><Navbar /><Words /><Footer /></>} /> },
+  { path: "/tutorials", element: <ProtectedRoute element={<><Navbar /><TutoNav /><Core /><Footer /></>} /> },
+  { path: "/core", element: <ProtectedRoute element={<><Navbar /><TutoNav /><Core /><Footer /></>} /> },
+  { path: "/maths", element: <ProtectedRoute element={<><Navbar /><TutoNav /><Maths /><Footer /></>} /> },
+  { path: "/hand", element: <ProtectedRoute element={<><Navbar /><Hands /><Footer /></>} /> },
+  { path: "/news", element: <ProtectedRoute element={<><Navbar /><TutoNav /><News /><Footer /></>} /> },
+  { path: "/science", element: <ProtectedRoute element={<><Navbar /><TutoNav /><Science /><Footer /></>} /> },
+  { path: "/body", element: <ProtectedRoute element={<><Navbar /><Body /><Footer /></>} /> },
+  { path: "/education", element: <ProtectedRoute element={<><Navbar /><Education /><Footer /></>} /> },
+  { path: "/certificate", element: <ProtectedRoute element={<><Navbar /><Quiz /><Footer /></>} /> }
+]);
 
 function App() {
-
-  return (
-    <div>
-      <RouterProvider router={router} />
-    </div>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;

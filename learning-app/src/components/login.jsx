@@ -12,10 +12,30 @@ import { Link } from 'react-router-dom'
         setUser({ ...user, [e.target.name]: e.target.value });
         };
     
-        const handleSubmit = (e) => {
-        e.preventDefault();
-        alert(`Login Successful\nEmail: ${user.email}`);
-        };
+        const handleSubmit = async (e) => {
+            e.preventDefault();
+            try {
+              const response = await fetch("http://localhost:5000/api/auth/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(user),
+              });
+          
+              const data = await response.json();
+          
+              if (response.ok) {
+                localStorage.setItem("token", data.token); // Save JWT token
+                alert("Login Successful");
+                window.location.href = "/home"; // Redirect to home page
+              } else {
+                alert(data.message); // Show error message from backend
+              }
+            } catch (error) {
+              console.error("Error:", error);
+              alert("Login failed. Try again.");
+            }
+          };
+          
     
         return (
         <div className="alog">
