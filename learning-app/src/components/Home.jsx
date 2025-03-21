@@ -8,16 +8,18 @@ const Home = () => {
       {/* <div className="main">
           <img className="main-img" src="./w3.jpg" alt="" />
         </div> */}
-      <div className="hero-container">
-        <h1 className="hero-title">Learn to Sign</h1>
-        <p className="hero-subtitle">
-          Videos, Lessons & Practice – All in One Place.
-        </p>
-        <Link to="/basic" className="begin-link">
-          Not Sure Where To Begin?
-        </Link>
-        <img src="./astro-main.png" alt="Astronaut Mascot" className="hero-image" />
-      </div>
+<div className="hero-container">
+  <h1 className="hero-title">Echoes of the Hands</h1>
+  <p className="hero-subtitle">
+    Videos, Lessons & Practice – All in One Place.
+  </p>
+  <Link to="/basic" className="begin-link">
+    Not Sure Where To Begin?
+  </Link>
+  <img src="./astro-main.png" alt="Astronaut Mascot" className="hero-image" />
+  <div className="hand-signs-bg"></div> 
+</div>
+
 
 
       <div className="basic">
