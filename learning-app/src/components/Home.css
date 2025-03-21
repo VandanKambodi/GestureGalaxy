@@ -17,7 +17,6 @@
     animation: fadeIn 1.5s ease-in-out;
 }
 
-/* Left to right animation for text elements */
 .hero-title,
 .hero-subtitle,
 .begin-link {
@@ -26,7 +25,6 @@
     animation: slideIn 1s ease-in-out forwards;
 }
 
-/* Different delays for smooth appearance */
 .hero-title {
     animation-delay: 0.2s;
 }
@@ -37,7 +35,6 @@
     animation-delay: 0s;
 }
 
-/* Left to Right Slide Animation */
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -49,15 +46,13 @@
     }
 }
 
-/* Glow effect for title */
 .hero-title {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: bold;
     text-shadow: 4px 4px 10px #e75dce;
     animation: pulse 2s infinite alternate, slideIn 1s ease-in-out forwards;
 }
 
-/* Subtitle color enhancement */
 .hero-subtitle{
     font-size: 1.4rem;
     color: #e75dce;
@@ -65,7 +60,6 @@
     font-weight: 600;
 }
 
-/* CTA button styling */
 .begin-link {
     color: white;
     background-color: #9e2488;
@@ -82,7 +76,6 @@
     transform: scale(1.1);
 }
 
-/* Hero image remains static with floating animation */
 .hero-image {
     position: absolute;
     right: 50px;
@@ -91,27 +84,24 @@
     animation: floatUp 3s infinite ease-in-out;
 }
 
-/* Floating Animation for Hero Image */
 @keyframes floatUp {
     0% { transform: translateY(0px); }
     50% { transform: translateY(-25px); }
     100% { transform: translateY(0px); }
 }
 
-/* Hand sign background effect */
 .hand-signs-bg {
     position: absolute;
     top: 10%;
     left: 5%;
     width: 90%;
     height: 80%;
-    background-image: url("./hand-signs-pattern.png"); /* Add hand signs illustration */
+    background-image: url("./hand-signs-pattern.png"); 
     opacity: 0.1;
     background-repeat: repeat;
     z-index: -1;
 }
 
-/* Fade-in effect for overall section */
 @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.95); }
     to { opacity: 1; transform: scale(1); }

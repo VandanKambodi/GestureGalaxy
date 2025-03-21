@@ -60,12 +60,43 @@ a{
     padding-left: 10px;
     font-family: monospace;
 }
+
+search {
+    position: relative;
+}
+
+.error-dropdown {
+    position: absolute;
+    background: rgba(255, 0, 0, 0.9);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    z-index: 10;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#search-butt{
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+}
+
 .butt{
     border-radius: 90px;
     background-color: #fac1f1;
     border: none;
     height: 2rem;
-    width: 4rem;
+    width: 2.5rem;
 }
 .butt:hover{
     background-color: #DD88CF;

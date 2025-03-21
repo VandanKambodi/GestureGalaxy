@@ -9,7 +9,7 @@ const Home = () => {
           <img className="main-img" src="./w3.jpg" alt="" />
         </div> */}
 <div className="hero-container">
-  <h1 className="hero-title">Echoes of the Hands</h1>
+  <h1 className="hero-title">Learn to Sign</h1>
   <p className="hero-subtitle">
     Videos, Lessons & Practice – All in One Place.
   </p>
