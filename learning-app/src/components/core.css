@@ -33,18 +33,17 @@
     color: #c9c3c3;
   }
   
-  
   .tuto-core-num {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 100%;
     background: #F8E7F6;
   }
   .tuto-core-num-part{
     max-width: 920px;
-    height: 350px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,12 +88,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 450px;
+    height: 100%;
     background: #F8E7F6;;
   }
   .core-alpha-part{
     max-width: 920px;
-    height: 350px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +133,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 350px;
+    height: 100%;
     background: #F8E7F6;
   }
 
@@ -152,11 +151,16 @@
   .core-alpha-info-text h2 {
     color: #42135c;
     font-size: 35px;
+    text-align: center;
   }
   
   .core-alpha-info-text p {
     color: #6c5899;;
     font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 200px;
   }
 
   .tuto-core-vowels {
@@ -164,12 +168,12 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 100%;
     background: #F8E7F6;
   }
   .tuto-core-vowels-part{
     max-width: 920px;
-    height: 350px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,18 +212,17 @@
     width: 100%;
   }
 
-
   .tuto-core-Consonant {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 400px;
+    height: 100%;
     background: #F8E7F6;
   }
   .tuto-core-Consonant-part{
     max-width: 920px;
-    height: 350px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -274,3 +277,172 @@
     color: #444242;
     max-width: 80%;
   }
+  
+@media (max-width: 484px) {
+  .tuto-foot{
+    height: 100%;
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 930px) {
+  .tuto-core-num-part{
+    gap: 10px;
+  }
+  .core-alpha-part{
+    gap: 10px;
+  }
+  .core-alpha-text{
+    text-align: right;
+  }
+  .tuto-core-vowels-part{
+    gap: 10px;
+  }
+  .tuto-core-Consonant-part{
+    gap: 10px;
+  }
+}
+@media (max-width: 780px) {
+  .tuto-core-num-text {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+  }
+  .tuto-core-num-text h2 {
+    text-align: center;
+  }
+  .tuto-core-num-text p {
+    text-align: center;
+  }
+  .core-alpha-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .core-alpha-text h2 {
+    text-align: center;
+  }
+  .core-alpha-text p {
+    text-align: center;
+  }
+  .tuto-core-vowels-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .tuto-core-vowels-text h2 {
+    text-align: center;
+  }
+  .tuto-core-vowels-text p {
+    text-align: center;
+  }
+  .tuto-core-Consonant-text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .tuto-core-Consonant-text h2 {
+    text-align: center;
+  }
+  .tuto-core-Consonant-text p {
+    text-align: center;
+  }
+  .tuto-core-num-part{
+    flex-direction: column;
+    height: auto;
+  }
+  .core-alpha-part{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .tuto-core-vowels-part{
+    margin-top: 35px;
+    flex-direction: column;
+    height: auto;
+  }
+  .tuto-core-Consonant-part{
+    flex-direction: column;
+    height: auto;
+  }
+
+}
+@media (max-width: 600px) {
+  .core-alpha-info-text p {
+    height: auto;
+  }
+}
+
+@media (max-width: 455px) {
+  .core-info{
+    height: 450px;
+  }
+}
+
+@media (max-width: 345px) {
+  .core-info{
+    height: 500px;
+  }
+}
+
+@media (max-width: 426px) {
+  .core-num-image iframe{
+    height: 230px;
+    width: 350px;
+  }
+  .core-alpha-image iframe{
+    height: 230px;
+    width: 350px;
+  }
+  .core-vowels-image image{
+    height: 230px;
+    width: 350px;
+  }
+  .core-Consonant-image image{
+    height: 230px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 426px) {
+  .core-vowels-image{
+    height: 230px;
+    width: 350px;
+  }
+  .core-Consonant-image{
+    height: 230px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .core-num-image iframe{
+    height: 160px;
+    width: 280px;
+  }
+  .core-alpha-image iframe{
+    height: 160px;
+    width: 280px;
+  }
+  .core-vowels-image{
+    height: 200px;
+    width: 280px;
+  }
+  .core-Consonant-image{
+    height: 200px;
+    width: 280px;
+  }
+}
+
+@media (max-width: 432px) {
+  .tuto-core-num-text{
+    width: 300px;
+  }
+  .core-alpha-text{
+    width: 300px;
+  }
+}

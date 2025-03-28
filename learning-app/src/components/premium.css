@@ -111,3 +111,84 @@
     background-color: #ff0000;
     color: white;
   }  
+
+  @media (max-width: 1100px) {
+    ul{
+      text-align: left;
+    }
+    .pricing-bot-image{
+      width: 100%;
+    }
+}
+
+@media (max-width: 980px) {
+  ul{
+    text-align: left;
+  }
+  .pricing-bot-image{
+    margin-top: 0%;
+  }
+}
+
+@media (max-width: 800px) {
+  .pricing-bot-image{
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 660px) {
+  .pricing-bot-image{
+    margin-top: 5px;
+    width: 370px;
+  }
+}
+
+@media (max-width: 470px) {
+  .pricing-bot-image{
+    margin-top: 5px;
+    width: 340px;
+  }
+}
+
+@media (max-width: 445px) {
+  .pricing-bot-image{
+    margin-top: 5px;
+    width: 320px;
+  }
+}
+
+@media (max-width: 400px) {
+  .pricing-bot-image{
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 370px) {
+  .pricing-bot-image{
+    margin-top: 5px;
+    width: 270px;
+  }
+}
+
+@media (max-width: 345px) {
+  .pricing-bot-image{
+    margin-top: 5px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 335px) {
+  .pricing-container{
+    padding-top: 10px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10px;
+  }
+  .pricing-left-panel{
+    border-radius: 1%;
+  }
+  .pricing-plan{
+    border-radius: 1%;
+  }
+}

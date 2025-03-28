@@ -12,7 +12,8 @@ const Navbar = () => {
 
     // List of valid search paths
     const validPages = ["home", "tutorials", "certificate", "books", "about", "premium", 
-                        "basic", "food", "words", "emotions", "hand", "body", "education"];
+                        "basic", "food", "words", "emotions", "hand", "body", "education", 
+                        "core", "maths", "science", "news"];
 
     const handleSearch = () => {
         const query = searchQuery.trim().toLowerCase();
@@ -94,8 +95,8 @@ const Navbar = () => {
                     <GoogleTranslate />
                 </div>
                 <div className="signup">
-                    <Link to="/signup" id="sign">Profile</Link>
-                    <Link to="/login" id="log">name</Link>
+                    <Link to="/home" id="sign">Profile</Link>
+                    <Link to="/home" id="log">name</Link>
                 </div>
             </div>
             <div className="data">

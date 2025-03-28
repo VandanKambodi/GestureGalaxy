@@ -40,9 +40,9 @@ const Signup = () => {
     <div className="all">
     <div className="sign">
         <div className="slogo">
-            <Link to="/home">
+            {/* <Link to="/signup"> */}
                 <img src="./logo1.png" alt="logo" className='simg'/>
-            </Link>
+            {/* </Link> */}
         </div>
     <div className="signup-container">
       <div className="signup-box">

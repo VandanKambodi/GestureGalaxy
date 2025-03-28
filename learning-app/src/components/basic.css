@@ -46,11 +46,11 @@
     justify-content: center;
     align-items: center;    
     width: 100%;
-    height: 400px;
+    height: 100%;
   }
   .basic-num-part{
     max-width: 1080px;
-    height: 350px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +99,7 @@
     align-items: center;    
     width: 100%;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 25px;
   }
 
@@ -125,7 +125,7 @@
 
   .b-alpha-down{
     max-width: 100%;
-    height: 400px;
+    height: 100%;
     gap: 100px;
   }
 
@@ -342,4 +342,109 @@
   font-size: 16px;
   color: #444242;
   max-width: 80%;
+}
+
+@media (max-width: 1035px) {
+  .b-alpha-down-part{
+    height: auto;
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 995px) {
+  .basic-num-part{
+    gap: 100px;
+  }
+}
+
+@media (max-width: 885px) {
+  .basic-num-part{
+    gap: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .basic-num-part{
+    margin-top: 25px;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .b-num{
+    text-align: center;
+  }
+  .b-para{
+    text-align: center;
+  }
+}
+@media (max-width: 470px) {
+  .b-alpha-left iframe{
+    height: 250px;
+    width: 400px;
+  }
+  .b-alpha-right iframe{
+    height: 250px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 426px) {
+  .b-alpha-left iframe{
+    height: 230px;
+    width: 350px;
+  }
+  .b-alpha-right iframe{
+    height: 230px;
+    width: 350px;
+  }
+  .b-num-right iframe{
+    height: 230px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 405px) {
+  .b-alpha-left iframe{
+    height: 230px;
+    width: 350px;
+  }
+  .b-alpha-right iframe{
+    height: 230px;
+    width: 350px;
+  }
+  .b-num-right{
+    width: 300px;
+  }
+  .b-num-right iframe{
+    height: 230px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 358px) {
+  .b-alpha-left iframe{
+    height: 160px;
+    width: 280px;
+  }
+  .b-alpha-right iframe{
+    height: 160px;
+    width: 280px;
+  }
+  .b-num-right iframe{
+    height: 160px;
+    width: 280px;
+  }
+  .basic-num-part{
+    width: 300px;
+  }
+  .b-num-left{
+    width: 300px;
+  }
+}
+
+@media (max-width: 484px) {
+  .b-foot{
+    height: 100%;
+    padding-bottom: 15px;
+  }
 }

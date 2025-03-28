@@ -41,9 +41,9 @@ import { Link } from 'react-router-dom'
         <div className="alog">
         <div className="log">
                 <div className="slogo">
-                    <Link to="/home">
+                    {/* <Link to="/login"> */}
                         <img src="./logo1.png" alt="logo" className='limg'/>
-                    </Link>
+                    {/* </Link> */}
                 </div>
         <div className="login-container">
             <div className="login-box">

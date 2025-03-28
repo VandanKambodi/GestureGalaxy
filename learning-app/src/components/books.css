@@ -63,4 +63,25 @@
     background-color: #ff0000;
     color: white;
   }
+
+  @media (max-width: 400px) {
+    .books-container{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  @media (max-width: 340px) {
+    .books-container{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .books-container{
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+  }
   
