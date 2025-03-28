@@ -292,33 +292,28 @@ search {
     }
 }
 
-.auth {
-    display: flex;
-    align-items: center; /* Align items in a line */
-    gap: 10px; /* Add spacing between name and button */
-}
-
-/* Username styling */
-.username {
-    font-weight: bold;
-    color: black;
-    font-size: 16px;
+.auth{
     display: flex;
     align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Logout button styling */
-.logout-btn {
-    background-color: #e75dce;  /* Red button */
-    color: white;
+.username{
+    font-weight:600;
+}
+
+.logout-btn{
+    padding: 8px;
+    background-color: rgb(94, 86, 86);
+    color: white;    
     border: none;
-    padding: 6px 12px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s ease;
-    font-size: 14px;
+    font-weight: bold;
 }
 
-.logout-btn:hover {
-    background-color: #820b6c; /* Darker red on hover */
+.logout-btn:hover{
+    background-color: red;
 }

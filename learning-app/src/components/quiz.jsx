@@ -36,7 +36,7 @@ const questions = [
   },
   {
     question: "Which character it is indicating?",
-    image: "./letterj.png", // Replace with actual ISL image URL
+    image: "./letterj.png",
     options: ["F", "J", "K", "G"],
     answer: "J",
   },

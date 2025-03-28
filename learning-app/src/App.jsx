@@ -26,24 +26,19 @@ import Quiz from './components/quiz.jsx';
 // Function to check if user is authenticated
 const isAuthenticated = () => !!localStorage.getItem("token");
 
-// Protect routes that require login
 const ProtectedRoute = ({ element }) => {
   return isAuthenticated() ? element : <Navigate to="/signup" />;
 };
 
-// Create router with authentication checks
 const router = createBrowserRouter([
   { path: "*", element: <NotFound /> },
 
-  // Redirect to Signup if not logged in
   { path: "/", element: isAuthenticated() ? <Navigate to="/signup" /> : <Signup /> },
 
-  // Public Routes
   { path: "/signup", element: <Signup /> },
   { path: "/login", element: <Login /> },
   { path: "/about", element: <><Navbar /><About /><Footer /></> },
 
-  // Protected Routes (Only logged-in users can access)
   { path: "/", element: <ProtectedRoute element={<><Signup /></>} /> },
   { path: "/home", element: <ProtectedRoute element={<><Navbar /><Home /><Footer /></>} /> },
   { path: "/premium", element: <ProtectedRoute element={<><Navbar /><Premium /><Footer /></>} /> },

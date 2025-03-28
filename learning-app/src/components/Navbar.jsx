@@ -10,7 +10,6 @@ const Navbar = () => {
     const [user, setUser] = useState(null);
     const navigate = useNavigate();
 
-    // List of valid search paths
     const validPages = ["home", "tutorials", "certificate", "books", "about", "premium", 
                         "basic", "food", "words", "emotions", "hand", "body", "education", 
                         "core", "maths", "science", "news"];
@@ -110,7 +109,6 @@ const Navbar = () => {
                     <GoogleTranslate />
                 </div>
 
-                {/* User Authentication Section */}
                 <div className="auth">
                     {user ? (
                         <>
@@ -119,8 +117,7 @@ const Navbar = () => {
                         </>
                     ) : (
                         <>
-                            <Link to="/signup" id="sign">Sign Up</Link>
-                            <Link to="/login" id="log">Login</Link>
+                            
                         </>
                     )}
                 </div>
