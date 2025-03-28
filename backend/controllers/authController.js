@@ -1,14 +1,14 @@
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const bcrypt = require("bcryptjs");
+const jwt = require("jsonwebtoken");
+const User = require("../models/User");
 
 const registerUser = async (req, res) => {
     try {
         const { name, email, password } = req.body;
 
-        // Check if user exists
+        // Check if user already exists
         let user = await User.findOne({ email });
-        if (user) return res.status(400).json({ message: 'User already exists' });
+        if (user) return res.status(400).json({ message: "User already exists" });
 
         // Hash the password
         const salt = await bcrypt.genSalt(10);
@@ -18,9 +18,16 @@ const registerUser = async (req, res) => {
         user = new User({ name, email, password: hashedPassword });
         await user.save();
 
-        res.status(201).json({ message: 'User registered successfully' });
+        // Generate JWT Token
+        const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "1h" });
+
+        res.status(201).json({
+            message: "User registered successfully",
+            token,
+            user: { id: user._id, name: user.name, email: user.email }, // Send user data
+        });
     } catch (error) {
-        res.status(500).json({ message: 'Server error' });
+        res.status(500).json({ message: "Server error" });
     }
 };
 
@@ -30,19 +37,30 @@ const loginUser = async (req, res) => {
 
         // Check if user exists
         const user = await User.findOne({ email });
-        if (!user) return res.status(400).json({ message: 'Invalid credentials' });
+        if (!user) return res.status(400).json({ message: "Invalid credentials" });
 
         // Compare password
         const isMatch = await bcrypt.compare(password, user.password);
-        if (!isMatch) return res.status(400).json({ message: 'Invalid credentials' });
+        if (!isMatch) return res.status(400).json({ message: "Invalid credentials" });
 
         // Generate JWT Token
-        const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
+        const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, { expiresIn: "1h" });
 
-        res.json({ token, userId: user._id, message: 'Login successful' });
+        res.json({
+            message: "Login successful",
+            token,
+            user: { id: user._id, name: user.name, email: user.email }, // Send user data
+        });
     } catch (error) {
-        res.status(500).json({ message: 'Server error' });
+        res.status(500).json({ message: "Server error" });
+    }
+};
+const getUserProfile = async (req, res) => {
+    try {
+        res.json(req.user); // Send user details (name, email, etc.)
+    } catch (error) {
+        res.status(500).json({ message: "Server error" });
     }
 };
 
-module.exports = { registerUser, loginUser };
+module.exports = { registerUser, loginUser, getUserProfile };
