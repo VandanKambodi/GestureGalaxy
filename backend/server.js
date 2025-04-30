@@ -3,6 +3,7 @@ const dotenv = require('dotenv');
 const connectDB = require('./config/db');
 const authRoutes = require('./routes/auth');
 const cors = require('cors');
+const path = require('path');
 
 dotenv.config();
 connectDB(); // Connect to MongoDB
@@ -13,8 +14,12 @@ app.use(cors());
 
 app.use('/api/auth', authRoutes); // Authentication routes
 
-app.get('/', (req, res) => {
-    res.send('API is running...');
+// Serve static files from the frontend
+app.use(express.static(path.join(__dirname, '../learning-app/dist')));
+
+// Catch-all route to serve the frontend
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../learning-app/dist/index.html'));
 });
 
 // Handle 404 errors
