@@ -3,7 +3,7 @@ const { registerUser, loginUser, getUserProfile } = require('../controllers/auth
 const authMiddleware = require("../middleware/authMiddleware");
 const router = express.Router();
 
-router.post('/signup', registerUser);  // Signup Route
+router.get('/signup', registerUser);  // Signup Route
 router.post('/login', loginUser);      // Login Route
 router.get("/profile", authMiddleware, getUserProfile);
 
