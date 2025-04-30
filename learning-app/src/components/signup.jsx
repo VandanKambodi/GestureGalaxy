@@ -17,7 +17,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const response = await fetch("https://gesture-galaxy-api.onrender.com/api/auth/signup", {
-        method: "GET",
+        method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(user),
       });
